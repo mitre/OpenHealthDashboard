@@ -16,20 +16,6 @@ Here is an example of what you can do with the Open Health Dashboard:
 2. Run this code block: 
   ```markdown
   Syntax highlighted code block
-
-  # Header 1
-  ## Header 2
-  ### Header 3
-
-  - Bulleted
-  - List
-
-  1. Numbered
-  2. List
-
-  **Bold** and _Italic_ and `Code` text
-
-  [Link](url) and ![Image](src)
   ```
 3. ...
 4. Contribute your code to the community!
