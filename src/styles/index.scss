@@ -1,0 +1,73 @@
+@import "~@zendeskgarden/css-grid/dist/index.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import "./var/index";
+@import "./util";
+@import "./typography";
+@import "./spacing";
+@import "./components/topic";
+@import "./components/supporting-indicator-group";
+@import "./components/bar-chart";
+@import "./components/line-chart";
+@import "./components/axes";
+@import "./components/stat";
+@import "./components/lenses";
+@import "./components/key-indicator";
+@import "./components/map";
+@import "./components/header";
+@import "./components/map-topic";
+@import "./components/list";
+@import "./components/button";
+@import "./components/topic-select";
+@import "./components/scroll-container";
+@import "./components/icon";
+@import "./components/story-select";
+@import "./components/citations";
+@import "./components/table";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  position: relative;
+  width: $t1v-screen-width;
+  height: $t1v-screen-height;
+  background-color: $color-blue--darkest;
+}
+
+.screen-height {
+  height: $t1v-screen-height;
+}
+
+.container {
+  max-width: none;
+
+  [class*="col-"] {
+    padding: 0;
+  }
+}
+
+.center-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.screen-height {
+  > [class*="col-"] {
+    height: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

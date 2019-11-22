@@ -1,0 +1,20 @@
+<svg viewBox="0 0 539 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path d="M5 6.51453L294.5 5.51453L296.333 1L301.167 17.9855L302.5 13.4855L523.5 13.4855H534M534 13.4855L530 9.50208M534 13.4855L530 17.4689" stroke="url(#zigzag_paint0_linear)" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0.5" y="0.5" width="538" height="25.9855" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="zigzag_paint0_linear" x1="62" y1="3.50019" x2="5" y2="3.50019" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA842"/>
+<stop offset="1" stop-color="#FFA842" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

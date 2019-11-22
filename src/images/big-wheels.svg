@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1080 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="bigWheelMask" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="480">
+<rect width="1080" height="480" fill="url(#bigWheelPaint0_linear)"/>
+</mask>
+<g mask="url(#bigWheelMask)">
+<g filter="url(#bigWheelFilter0_bd)">
+<path d="M-2.00005 939C287.616 939 565.371 862.774 770.161 727.092C974.95 591.409 1090 407.384 1090 215.5C1090 23.616 974.95 -160.409 770.161 -296.092C565.371 -431.774 287.617 -508 -1.99979 -508L-2 215.5L-2.00005 939Z" fill="url(#bigWheelPaint1_radial)" fill-opacity="0.85"/>
+</g>
+<g filter="url(#bigWheelFilter1_d)">
+<path d="M141.16 672.823C250.503 546.163 308.495 383.174 303.728 215.914C298.962 48.6549 231.782 -110.768 115.403 -230.994L-115.316 -7.66008C-54.7134 54.9464 -19.7305 137.963 -17.2484 225.061C-14.7663 312.159 -44.9647 397.034 -101.903 462.99L141.16 672.823Z" fill="url(#bigWheelPaint2_radial)"/>
+</g>
+<g filter="url(#bigWheelFilter2_d)">
+<path d="M-27.3986 532.957C19.4216 438.658 43.3603 334.653 42.4764 229.375C41.5925 124.097 15.9109 20.5083 -32.4859 -72.9907L-131.349 -21.817C-90.9939 56.1468 -69.5794 142.524 -68.8424 230.31C-68.1054 318.096 -88.0665 404.82 -127.107 483.45L-27.3986 532.957Z" fill="url(#bigWheelPaint3_radial)"/>
+</g>
+</g>
+<defs>
+<filter id="bigWheelFilter0_bd" x="-8.50006" y="-514.5" width="1105" height="1461.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="3.25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<filter id="bigWheelFilter1_d" x="-122.316" y="-235.994" width="437.316" height="921.817" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="4.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="bigWheelFilter2_d" x="-135.349" y="-72.9907" width="181.849" height="613.948" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="bigWheelPaint0_linear" x1="541.041" y1="0" x2="541.041" y2="480" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4C4C4" stop-opacity="0"/>
+<stop offset="0.0207228" stop-color="#C4C4C4"/>
+<stop offset="0.983929" stop-color="#C4C4C4"/>
+<stop offset="1" stop-color="#C4C4C4" stop-opacity="0.42"/>
+</linearGradient>
+<radialGradient id="bigWheelPaint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1094 241.565) scale(2184 791.142)">
+<stop offset="0.752603" stop-color="#47546D" stop-opacity="0.97"/>
+<stop offset="1" stop-color="#3D4657" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="bigWheelPaint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1036 241.5) rotate(-0.275154) scale(1353.52 845.216)">
+<stop offset="0.810663" stop-color="#FFE6A8" stop-opacity="0.9"/>
+<stop offset="0.991458" stop-color="#D7C392" stop-opacity="0.7"/>
+</radialGradient>
+<radialGradient id="bigWheelPaint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1278 273.687) rotate(-2.35072) scale(1321.11 726.315)">
+<stop offset="0.934466" stop-color="#FFD342"/>
+<stop offset="0.981883" stop-color="#FFAB42" stop-opacity="0.7968"/>
+<stop offset="1" stop-color="#FFA842" stop-opacity="0.57"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,35 @@
+$color-blue--darkest: #172341;
+$color-blue--dark: #334467;
+$color-blue--light: #6680A4;
+$color-blue--lightest: #DFE8F5;
+
+@if $t1v == true {
+  $color-blue--darkest: #0A1634; // 5% darker
+  $color-blue--dark: #26375A; // 5% darker
+  $color-blue--light: #597397; // 5% darker
+  $color-blue--lightest: #D2DBE8; // 5% darker
+}
+$color-blue-bar: $color-blue--dark;
+$color-blue-bar--alternate: $color-blue--dark;
+
+$color-gold: #FF9B3D;
+$color-yellow: #FFE39C;
+$color-yellow--semi-transparent: rgba($color-yellow, .5);
+
+$color-gray: #A1A1A1;
+$color-gray--dark: #3A342D;
+
+$color-white: #fff;
+
+$color-text--white: #F7F7F7;
+$color-text--gray: #EBEBEB;
+$color-text--yellow: #FFFBEF;
+
+
+$gradient-yellow--right: linear-gradient(90deg, rgba($color-yellow, 0) 0%, rgba($color-yellow, .1) 50%, rgba($color-yellow, .5) 100%);
+$gradient-yellow--top: linear-gradient(0deg, rgba($color-yellow, 0) 0%, rgba($color-yellow, .1) 50%, rgba($color-yellow, .5) 100%);
+$gradient-bar: linear-gradient(270deg, rgba(255, 227, 156, 0.6) 0%, rgba(255, 227, 156, 0) 97.64%);
+$gradient-blue--top: linear-gradient(0deg, rgba($color-blue--light, 0) 0%, rgba($color-blue--light, 0) 78%, rgba($color-blue--light, .3) 88%, rgba($color-blue--lightest, .7) 100%);
+
+$gradient-scroller: linear-gradient(179.96deg, #122248 -0.5%, #12234D -0.49%, #2D3B5B 42.94%, #435172 99.98%);
+$gradient-scroller--alternate: linear-gradient(179.96deg, #122248 -0.5%, #12234D -0.49%, #2D3B5B 42.94%, #435172 99.98%);

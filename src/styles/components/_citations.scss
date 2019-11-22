@@ -1,0 +1,24 @@
+.citations {
+  column-count: 2;
+  .map-topic__citations-container & {
+    column-count: 4;
+  }
+  column-fill: auto;
+  column-gap: 2*$spacing;
+  background-color: rgba($color-blue--darkest, 0.9);
+  pointer-events: auto;
+  font-size: $font-size--smaller;
+  padding-top: 3 * $spacing;
+
+  p {
+    padding-bottom: $spacing;
+  }
+
+
+
+  .dismiss-text {
+      padding-top: $spacing;
+      color: $color-gold;
+      font-weight: $font-weight--medium;
+  }
+}

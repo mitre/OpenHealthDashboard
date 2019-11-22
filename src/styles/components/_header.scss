@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 50px;
+  border-bottom: 5px solid $color-blue--darkest;
+  align-items: baseline;
+
+  &__story-title {
+    margin: 0;
+    margin-right: 50px;
+    color: $color-blue--darkest;
+    font-size: $font-size--larger;
+
+  }
+
+  &__story-tag {
+    color: $color-blue--darkest;
+    margin: 0;
+    font-size: $font-size--base;
+  }
+
+  .button {
+    margin-left: 300px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+  }
+}

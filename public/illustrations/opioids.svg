@@ -1,0 +1,11 @@
+<svg width="51" height="54" viewBox="0 0 51 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35 6.75H33.75V1C33.75 0.585786 34.0858 0.25 34.5 0.25H47C47.4142 0.25 47.75 0.585786 47.75 1V6.75H46.5H46.25V7V38.3534C46.25 38.9782 45.9138 39.5084 45.3615 39.671C44.4494 39.9396 42.8805 40.25 40.5 40.25C38.1014 40.25 36.6908 39.9349 35.9276 39.6688C35.4951 39.518 35.25 39.0841 35.25 38.5593V36V11V7V6.75H35Z" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M35 2V6M37 2V6M39 2V6M41 2V6M43 2V6M45 2V6M47 2V6" stroke="white" stroke-opacity="0.2" stroke-width="0.25" stroke-linecap="round"/>
+<path d="M27.163 43.2444V48.1941H28.5772V49.6083H22.2132V48.1941H23.6274V43.2444M27.163 43.2444L29.5268 43.2444V42.5373L27.8701 42.5373V23.0312C27.8701 22.4789 27.4223 22.0312 26.8701 22.0312H26.2767M27.163 43.2444H23.6274M23.6274 43.2444H21.5061V42.5373H22.9203V23.0312C22.9203 22.4789 23.368 22.0312 23.9203 22.0312L24.3345 22.0312M24.3345 22.0312L24.6881 16.7279H25.3952M24.3345 22.0312H26.2767M26.2767 22.0312L26.1023 16.7279H25.3952M25.3952 16.7279V3.99996" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M14.75 16.5C14.75 18.2949 13.2949 19.75 11.5 19.75C9.70507 19.75 8.25 18.2949 8.25 16.5C8.25 14.7051 9.70507 13.25 11.5 13.25C13.2949 13.25 14.75 14.7051 14.75 16.5Z" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="round"/>
+<circle cx="11.5" cy="5.5" r="3.5" fill="white" fill-opacity="0.1"/>
+<circle cx="11.5" cy="5.5" r="3.25" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M8.25 27.5C8.25 25.7051 9.70507 24.25 11.5 24.25C13.2949 24.25 14.75 25.7051 14.75 27.5V32.5V37.5C14.75 39.2949 13.2949 40.75 11.5 40.75C9.70507 40.75 8.25 39.2949 8.25 37.5V32.5V27.5Z" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M15 32.5V27.5C15 25.567 13.433 24 11.5 24C9.567 24 8 25.567 8 27.5V32.5H15Z" fill="white" fill-opacity="0.08"/>
+<path d="M43 11H35V36H43V11Z" fill="white" fill-opacity="0.09"/>
+</svg>

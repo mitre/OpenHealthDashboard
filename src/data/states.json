@@ -1,0 +1,678 @@
+[
+  {
+    "state": "Alabama",
+    "data": {
+      "pop": "4.9",
+      "median_age": "39",
+      "non_white": "31",
+      "senior": "17",
+      "median_income": "48",
+      "income_rank": "47",
+      "poverty_rate": "17",
+      "poverty_rank": "46"
+    }
+  },
+  {
+    "state": "Alaska",
+    "data": {
+      "pop": "0.7",
+      "median_age": "34",
+      "non_white": "34",
+      "senior": "11",
+      "median_income": "73",
+      "income_rank": "8",
+      "poverty_rate": "11",
+      "poverty_rank": "15"
+    }
+  },
+  {
+    "state": "Arizona",
+    "data": {
+      "pop": "7.2",
+      "median_age": "38",
+      "non_white": "17",
+      "senior": "17",
+      "median_income": "57",
+      "income_rank": "29",
+      "poverty_rate": "15",
+      "poverty_rank": "39"
+    }
+  },
+  {
+    "state": "Arkansas",
+    "data": {
+      "pop": "3.0",
+      "median_age": "38",
+      "non_white": "21",
+      "senior": "17",
+      "median_income": "46",
+      "income_rank": "50",
+      "poverty_rate": "16",
+      "poverty_rank": "44"
+    }
+  },
+  {
+    "state": "California",
+    "data": {
+      "pop": "39.6",
+      "median_age": "37",
+      "non_white": "28",
+      "senior": "14",
+      "median_income": "72",
+      "income_rank": "9",
+      "poverty_rate": "13",
+      "poverty_rank": "29"
+    }
+  },
+  {
+    "state": "Colorado",
+    "data": {
+      "pop": "5.7",
+      "median_age": "37",
+      "non_white": "13",
+      "senior": "14",
+      "median_income": "69",
+      "income_rank": "12",
+      "poverty_rate": "10",
+      "poverty_rank": "9"
+    }
+  },
+  {
+    "state": "Connecticut",
+    "data": {
+      "pop": "3.6",
+      "median_age": "41",
+      "non_white": "20",
+      "senior": "17",
+      "median_income": "74",
+      "income_rank": "6",
+      "poverty_rate": "10",
+      "poverty_rank": "5"
+    }
+  },
+  {
+    "state": "Delaware",
+    "data": {
+      "pop": "1.0",
+      "median_age": "40",
+      "non_white": "30",
+      "senior": "18",
+      "median_income": "63",
+      "income_rank": "18",
+      "poverty_rate": "14",
+      "poverty_rank": "32"
+    }
+  },
+  {
+    "state": "District of columbia",
+    "data": {
+      "pop": "0.7",
+      "median_age": "34",
+      "non_white": "55",
+      "senior": "12",
+      "median_income": "82",
+      "income_rank": "1",
+      "poverty_rate": "17",
+      "poverty_rank": "45"
+    }
+  },
+  {
+    "state": "Florida",
+    "data": {
+      "pop": "21.3",
+      "median_age": "42",
+      "non_white": "23",
+      "senior": "20",
+      "median_income": "53",
+      "income_rank": "40",
+      "poverty_rate": "14",
+      "poverty_rank": "34"
+    }
+  },
+  {
+    "state": "Georgia",
+    "data": {
+      "pop": "10.5",
+      "median_age": "37",
+      "non_white": "39",
+      "senior": "14",
+      "median_income": "56",
+      "income_rank": "32",
+      "poverty_rate": "15",
+      "poverty_rank": "40"
+    }
+  },
+  {
+    "state": "Hawaii",
+    "data": {
+      "pop": "1.4",
+      "median_age": "39",
+      "non_white": "74",
+      "senior": "18",
+      "median_income": "78",
+      "income_rank": "4",
+      "poverty_rate": "10",
+      "poverty_rank": "3"
+    }
+  },
+  {
+    "state": "Idaho",
+    "data": {
+      "pop": "1.8",
+      "median_age": "36",
+      "non_white": "7",
+      "senior": "15",
+      "median_income": "52",
+      "income_rank": "41",
+      "poverty_rate": "13",
+      "poverty_rank": "25"
+    }
+  },
+  {
+    "state": "Illinois",
+    "data": {
+      "pop": "12.7",
+      "median_age": "38",
+      "non_white": "23",
+      "senior": "15",
+      "median_income": "63",
+      "income_rank": "17",
+      "poverty_rate": "13",
+      "poverty_rank": "24"
+    }
+  },
+  {
+    "state": "Indiana",
+    "data": {
+      "pop": "6.7",
+      "median_age": "38",
+      "non_white": "15",
+      "senior": "15",
+      "median_income": "54",
+      "income_rank": "35",
+      "poverty_rate": "14",
+      "poverty_rank": "31"
+    }
+  },
+  {
+    "state": "Iowa",
+    "data": {
+      "pop": "3.2",
+      "median_age": "38",
+      "non_white": "9",
+      "senior": "16",
+      "median_income": "59",
+      "income_rank": "26",
+      "poverty_rate": "11",
+      "poverty_rank": "12"
+    }
+  },
+  {
+    "state": "Kansas",
+    "data": {
+      "pop": "2.9",
+      "median_age": "37",
+      "non_white": "14",
+      "senior": "15",
+      "median_income": "56",
+      "income_rank": "31",
+      "poverty_rate": "12",
+      "poverty_rank": "21"
+    }
+  },
+  {
+    "state": "Kentucky",
+    "data": {
+      "pop": "4.5",
+      "median_age": "39",
+      "non_white": "12",
+      "senior": "16",
+      "median_income": "48",
+      "income_rank": "45",
+      "poverty_rate": "17",
+      "poverty_rank": "47"
+    }
+  },
+  {
+    "state": "Louisiana",
+    "data": {
+      "pop": "4.7",
+      "median_age": "37",
+      "non_white": "37",
+      "senior": "15",
+      "median_income": "46",
+      "income_rank": "49",
+      "poverty_rate": "20",
+      "poverty_rank": "49"
+    }
+  },
+  {
+    "state": "Maine",
+    "data": {
+      "pop": "1.3",
+      "median_age": "45",
+      "non_white": "5",
+      "senior": "20",
+      "median_income": "55",
+      "income_rank": "33",
+      "poverty_rate": "11",
+      "poverty_rank": "16"
+    }
+  },
+  {
+    "state": "Maryland",
+    "data": {
+      "pop": "6.0",
+      "median_age": "39",
+      "non_white": "41",
+      "senior": "15",
+      "median_income": "81",
+      "income_rank": "2",
+      "poverty_rate": "9",
+      "poverty_rank": "2"
+    }
+  },
+  {
+    "state": "Massachusetts",
+    "data": {
+      "pop": "6.9",
+      "median_age": "40",
+      "non_white": "19",
+      "senior": "16",
+      "median_income": "77",
+      "income_rank": "5",
+      "poverty_rate": "11",
+      "poverty_rank": "10"
+    }
+  },
+  {
+    "state": "Michigan",
+    "data": {
+      "pop": "10.0",
+      "median_age": "40",
+      "non_white": "21",
+      "senior": "17",
+      "median_income": "55",
+      "income_rank": "34",
+      "poverty_rate": "14",
+      "poverty_rank": "36"
+    }
+  },
+  {
+    "state": "Minnesota",
+    "data": {
+      "pop": "5.6",
+      "median_age": "38",
+      "non_white": "16",
+      "senior": "15",
+      "median_income": "68",
+      "income_rank": "13",
+      "poverty_rate": "10",
+      "poverty_rank": "4"
+    }
+  },
+  {
+    "state": "Mississippi",
+    "data": {
+      "pop": "3.0",
+      "median_age": "37",
+      "non_white": "41",
+      "senior": "16",
+      "median_income": "44",
+      "income_rank": "51",
+      "poverty_rate": "20",
+      "poverty_rank": "51"
+    }
+  },
+  {
+    "state": "Missouri",
+    "data": {
+      "pop": "6.1",
+      "median_age": "39",
+      "non_white": "17",
+      "senior": "16",
+      "median_income": "54",
+      "income_rank": "37",
+      "poverty_rate": "13",
+      "poverty_rank": "30"
+    }
+  },
+  {
+    "state": "Montana",
+    "data": {
+      "pop": "1.1",
+      "median_age": "40",
+      "non_white": "11",
+      "senior": "18",
+      "median_income": "53",
+      "income_rank": "38",
+      "poverty_rate": "13",
+      "poverty_rank": "23"
+    }
+  },
+  {
+    "state": "Nebraska",
+    "data": {
+      "pop": "1.9",
+      "median_age": "36",
+      "non_white": "11",
+      "senior": "15",
+      "median_income": "60",
+      "income_rank": "22",
+      "poverty_rate": "11",
+      "poverty_rank": "13"
+    }
+  },
+  {
+    "state": "Nevada",
+    "data": {
+      "pop": "3.0",
+      "median_age": "38",
+      "non_white": "25",
+      "senior": "16",
+      "median_income": "58",
+      "income_rank": "27",
+      "poverty_rate": "13",
+      "poverty_rank": "27"
+    }
+  },
+  {
+    "state": "New hampshire",
+    "data": {
+      "pop": "1.4",
+      "median_age": "43",
+      "non_white": "6",
+      "senior": "18",
+      "median_income": "73",
+      "income_rank": "7",
+      "poverty_rate": "8",
+      "poverty_rank": "1"
+    }
+  },
+  {
+    "state": "New jersey",
+    "data": {
+      "pop": "8.9",
+      "median_age": "40",
+      "non_white": "28",
+      "senior": "16",
+      "median_income": "80",
+      "income_rank": "3",
+      "poverty_rate": "10",
+      "poverty_rank": "7"
+    }
+  },
+  {
+    "state": "New mexico",
+    "data": {
+      "pop": "2.1",
+      "median_age": "38",
+      "non_white": "18",
+      "senior": "17",
+      "median_income": "47",
+      "income_rank": "48",
+      "poverty_rate": "20",
+      "poverty_rank": "50"
+    }
+  },
+  {
+    "state": "New york",
+    "data": {
+      "pop": "19.5",
+      "median_age": "39",
+      "non_white": "30",
+      "senior": "16",
+      "median_income": "65",
+      "income_rank": "15",
+      "poverty_rate": "14",
+      "poverty_rank": "35"
+    }
+  },
+  {
+    "state": "North carolina",
+    "data": {
+      "pop": "10.4",
+      "median_age": "39",
+      "non_white": "29",
+      "senior": "16",
+      "median_income": "53",
+      "income_rank": "39",
+      "poverty_rate": "15",
+      "poverty_rank": "38"
+    }
+  },
+  {
+    "state": "North dakota",
+    "data": {
+      "pop": "0.8",
+      "median_age": "35",
+      "non_white": "12",
+      "senior": "15",
+      "median_income": "62",
+      "income_rank": "19",
+      "poverty_rate": "10",
+      "poverty_rank": "Poverty_rank"
+    }
+  },
+  {
+    "state": "Ohio",
+    "data": {
+      "pop": "11.7",
+      "median_age": "39",
+      "non_white": "18",
+      "senior": "17",
+      "median_income": "54",
+      "income_rank": "36",
+      "poverty_rate": "14",
+      "poverty_rank": "33"
+    }
+  },
+  {
+    "state": "Oklahoma",
+    "data": {
+      "pop": "3.9",
+      "median_age": "37",
+      "non_white": "26",
+      "senior": "15",
+      "median_income": "50",
+      "income_rank": "44",
+      "poverty_rate": "16",
+      "poverty_rank": "43"
+    }
+  },
+  {
+    "state": "Oregon",
+    "data": {
+      "pop": "4.2",
+      "median_age": "39",
+      "non_white": "13",
+      "senior": "17",
+      "median_income": "60",
+      "income_rank": "21",
+      "poverty_rate": "13",
+      "poverty_rank": "28"
+    }
+  },
+  {
+    "state": "Pennsylvania",
+    "data": {
+      "pop": "12.8",
+      "median_age": "41",
+      "non_white": "18",
+      "senior": "18",
+      "median_income": "59",
+      "income_rank": "25",
+      "poverty_rate": "13",
+      "poverty_rank": "22"
+    }
+  },
+  {
+    "state": "Puerto Rico",
+    "data": {
+      "pop": "3.2",
+      "median_age": "0",
+      "non_white": "0",
+      "senior": "0",
+      "median_income": "19",
+      "income_rank": "56",
+      "poverty_rate": "0",
+      "poverty_rank": "0"
+    }
+  },
+  {
+    "state": "Rhode island",
+    "data": {
+      "pop": "1.1",
+      "median_age": "40",
+      "non_white": "16",
+      "senior": "17",
+      "median_income": "64",
+      "income_rank": "16",
+      "poverty_rate": "12",
+      "poverty_rank": "20"
+    }
+  },
+  {
+    "state": "South carolina",
+    "data": {
+      "pop": "5.1",
+      "median_age": "39",
+      "non_white": "32",
+      "senior": "18",
+      "median_income": "51",
+      "income_rank": "43",
+      "poverty_rate": "15",
+      "poverty_rank": "42"
+    }
+  },
+  {
+    "state": "South dakota",
+    "data": {
+      "pop": "0.9",
+      "median_age": "37",
+      "non_white": "15",
+      "senior": "16",
+      "median_income": "57",
+      "income_rank": "30",
+      "poverty_rate": "13",
+      "poverty_rank": "26"
+    }
+  },
+  {
+    "state": "Tennessee",
+    "data": {
+      "pop": "6.8",
+      "median_age": "39",
+      "non_white": "21",
+      "senior": "16",
+      "median_income": "51",
+      "income_rank": "42",
+      "poverty_rate": "15",
+      "poverty_rank": "41"
+    }
+  },
+  {
+    "state": "Texas",
+    "data": {
+      "pop": "28.7",
+      "median_age": "35",
+      "non_white": "21",
+      "senior": "12",
+      "median_income": "59",
+      "income_rank": "24",
+      "poverty_rate": "15",
+      "poverty_rank": "37"
+    }
+  },
+  {
+    "state": "Utah",
+    "data": {
+      "pop": "3.2",
+      "median_age": "31",
+      "non_white": "9",
+      "senior": "11",
+      "median_income": "65",
+      "income_rank": "14",
+      "poverty_rate": "10",
+      "poverty_rank": "6"
+    }
+  },
+  {
+    "state": "Vermont",
+    "data": {
+      "pop": "0.6",
+      "median_age": "43",
+      "non_white": "6",
+      "senior": "19",
+      "median_income": "58",
+      "income_rank": "28",
+      "poverty_rate": "11",
+      "poverty_rank": "18"
+    }
+  },
+  {
+    "state": "Virginia",
+    "data": {
+      "pop": "8.5",
+      "median_age": "38",
+      "non_white": "30",
+      "senior": "15",
+      "median_income": "72",
+      "income_rank": "10",
+      "poverty_rate": "11",
+      "poverty_rank": "11"
+    }
+  },
+  {
+    "state": "Washington",
+    "data": {
+      "pop": "7.5",
+      "median_age": "38",
+      "non_white": "21",
+      "senior": "15",
+      "median_income": "71",
+      "income_rank": "11",
+      "poverty_rate": "11",
+      "poverty_rank": "14"
+    }
+  },
+  {
+    "state": "West virginia",
+    "data": {
+      "pop": "1.8",
+      "median_age": "43",
+      "non_white": "6",
+      "senior": "19",
+      "median_income": "43",
+      "income_rank": "52",
+      "poverty_rate": "19",
+      "poverty_rank": "48"
+    }
+  },
+  {
+    "state": "Wisconsin",
+    "data": {
+      "pop": "5.8",
+      "median_age": "39",
+      "non_white": "13",
+      "senior": "17",
+      "median_income": "59",
+      "income_rank": "23",
+      "poverty_rate": "11",
+      "poverty_rank": "19"
+    }
+  },
+  {
+    "state": "Wyoming",
+    "data": {
+      "pop": "0.6",
+      "median_age": "38",
+      "non_white": "7",
+      "senior": "16",
+      "median_income": "60",
+      "income_rank": "20",
+      "poverty_rate": "11",
+      "poverty_rank": "17"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+.topic-container {
+  position: relative;
+}
+
+.topic {
+  position: relative;
+  background: linear-gradient(45deg, rgba(#D0F9FF, .1) 0%, rgba(#C4C4C4, 0) 100%);
+
+  &__top-border {
+    border-top: 10px solid $color-blue-bar;
+    &.alternate {
+      border-top: 10px solid $color-blue-bar--alternate;
+    }
+  }
+
+  &__title {
+    @extend .text--yellow;
+    @extend .text-size--largest;
+    @extend .text-face--bold;
+    height: 360px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.02 * $font-size--largest;
+    line-height: 114%;
+  }
+
+  &__illustration {
+    position: absolute;
+    height: 200px;
+    top: 250px;
+    right: 0px;
+    padding-bottom: 5px;
+    padding-right: $spacing;
+  }
+
+  &__choose-topic {
+    margin-bottom: 50px;
+  }
+
+  &__key-indicator-holder {
+    border-right: 1px solid $color-yellow--semi-transparent;
+
+  }
+
+  &__citations-button {
+    position: absolute;
+    bottom: $spacing / 2;
+    left: 0;
+
+    &--right {
+      left: $spacing;
+    }
+  }
+
+  &__citations-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+  }
+}

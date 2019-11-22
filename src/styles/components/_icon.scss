@@ -1,0 +1,9 @@
+.icon {
+  width: 1.25rem;
+  height: auto;
+  fill: $color-gold;
+
+  &--blue {
+    fill: $color-blue--darkest;
+  }
+}

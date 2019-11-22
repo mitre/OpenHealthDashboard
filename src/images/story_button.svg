@@ -1,0 +1,14 @@
+<svg viewBox="0 0 56 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.9" d="M55.6678 4L52.3866 7.75L4.10355 7.75L0.353554 4L4.10355 0.25L52.3866 0.25L55.6678 4Z" stroke="url(#story_paint0_linear)" stroke-width="0.5"/>
+<path d="M8 4L4 0L0 4L4 8L8 4Z" fill="url(#story_paint1_diamond)"/>
+<defs>
+<linearGradient id="story_paint0_linear" x1="8" y1="4" x2="1.5" y2="4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA842"/>
+<stop offset="0.930594" stop-color="#FFA842" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="story_paint1_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4 4) rotate(90) scale(4)">
+<stop offset="0.0625" stop-color="#FFA842"/>
+<stop offset="1" stop-color="#FFA842" stop-opacity="0.54"/>
+</radialGradient>
+</defs>
+</svg>

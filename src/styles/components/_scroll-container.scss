@@ -1,0 +1,74 @@
+.scroll-container {
+  $this: &;
+
+  height: $t1v-screen-height - 50px;
+  overflow-y: hidden;
+
+  &__content{
+    @extend .margin--all;
+    margin-right: 0px;
+    background: $gradient-scroller;
+    &.alternate {
+      background: $gradient-scroller--alternate;
+    }
+  }
+
+  .button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__up,
+  &__down {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  &__up {
+    top: 20px;
+  }
+
+  &__down {
+    bottom: 20px;
+  }
+
+  &--needs-scroll {
+    #{$this}__down {
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: $t1v-screen-height / 10;
+      background: linear-gradient(0deg, rgba(23,35,65,1) 0%, rgba(23,35,65,1) 20%, rgba(23,35,65,0) 100%);
+    }
+  }
+
+  &--scrolled {
+    #{$this}__up {
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    #{$this}__down {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: $t1v-screen-height / 10;
+      background: linear-gradient(180deg, rgba(23,35,65,1) 0%, rgba(23,35,65,1) 20%, rgba(23,35,65,0) 100%);
+    }
+  }
+}

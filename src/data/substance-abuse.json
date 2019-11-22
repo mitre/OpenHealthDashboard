@@ -1,0 +1,1296 @@
+{
+  "title": "Substance Abuse",
+  "description": "158,000 Americans died from drug abuse in 2017. That's nearly 50 people for every county in the country. Which populations are hurting the most? Are we doing enough to help them?",
+  "illustration": "substance-abuse.svg",
+  "keyIndicators": [
+    {
+      "title": "Drug related deaths",
+      "stat": 16.9,
+      "abbreviation": null,
+      "description": "drug related deaths per 100,000 population in 2018",
+      "citations": [
+        "“Annual Report.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/annual/measure/Drugdeaths/state/ALL",
+        "“Illicit drug use.” <em>USAFACTS</em>. https://usafacts.org/missions/promote-welfare/12#illicit_drug_use"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "drug overdose deaths (thousands)",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "Opioids",
+              "values": [
+                {
+                  "year": "1999",
+                  "value": 5.441
+                },
+                {
+                  "year": "2000",
+                  "value": 5.848
+                },
+                {
+                  "year": "2001",
+                  "value": 6.957
+                },
+                {
+                  "year": "2002",
+                  "value": 9.168
+                },
+                {
+                  "year": "2003",
+                  "value": 10.237
+                },
+                {
+                  "year": "2004",
+                  "value": 11.449
+                },
+                {
+                  "year": "2005",
+                  "value": 12.570
+                },
+                {
+                  "year": "2006",
+                  "value": 15.338
+                },
+                {
+                  "year": "2007",
+                  "value": 16.391
+                },
+                {
+                  "year": "2008",
+                  "value": 17.307
+                },
+                {
+                  "year": "2009",
+                  "value": 18.322
+                },
+                {
+                  "year": "2010",
+                  "value": 19.155
+                },
+                {
+                  "year": "2011",
+                  "value": 20.588
+                },
+                {
+                  "year": "2012",
+                  "value": 21.036
+                },
+                {
+                  "year": "2013",
+                  "value": 23.153
+                },
+                {
+                  "year": "2014",
+                  "value": 27.119
+                },
+                {
+                  "year": "2015",
+                  "value": 31.546
+                },
+                {
+                  "year": "2016",
+                  "value": 40.778
+                },
+                {
+                  "year": "2017",
+                  "value": 46.394
+                }
+              ]
+            },
+            {
+              "label": "Cocaine",
+              "values": [
+                {
+                  "year": "1999",
+                  "value": 3.822
+                },
+                {
+                  "year": "2000",
+                  "value": 3.544
+                },
+                {
+                  "year": "2001",
+                  "value": 3.833
+                },
+                {
+                  "year": "2002",
+                  "value": 4.599
+                },
+                {
+                  "year": "2003",
+                  "value": 5.199
+                },
+                {
+                  "year": "2004",
+                  "value": 5.443
+                },
+                {
+                  "year": "2005",
+                  "value": 6.208
+                },
+                {
+                  "year": "2006",
+                  "value": 7.448
+                },
+                {
+                  "year": "2007",
+                  "value": 6.512
+                },
+                {
+                  "year": "2008",
+                  "value": 5.129
+                },
+                {
+                  "year": "2009",
+                  "value": 4.350
+                },
+                {
+                  "year": "2010",
+                  "value": 4.183
+                },
+                {
+                  "year": "2011",
+                  "value": 4.681
+                },
+                {
+                  "year": "2012",
+                  "value": 4.404
+                },
+                {
+                  "year": "2013",
+                  "value": 4.944
+                },
+                {
+                  "year": "2014",
+                  "value": 5.415
+                },
+                {
+                  "year": "2015",
+                  "value": 6.784
+                },
+                {
+                  "year": "2016",
+                  "value": 10.375
+                },
+                {
+                  "year": "2017",
+                  "value": 13.942
+                }
+              ]
+            },
+            {
+              "label": "Methamphetamine and similar",
+              "values": [
+                {
+                  "year": "1999",
+                  "value": 0.547
+                },
+                {
+                  "year": "2000",
+                  "value": 0.578
+                },
+                {
+                  "year": "2001",
+                  "value": 0.563
+                },
+                {
+                  "year": "2002",
+                  "value": 0.941
+                },
+                {
+                  "year": "2003",
+                  "value": 1.179
+                },
+                {
+                  "year": "2004",
+                  "value": 1.305
+                },
+                {
+                  "year": "2005",
+                  "value": 1.608
+                },
+                {
+                  "year": "2006",
+                  "value": 1.462
+                },
+                {
+                  "year": "2007",
+                  "value": 1.378
+                },
+                {
+                  "year": "2008",
+                  "value": 1.302
+                },
+                {
+                  "year": "2009",
+                  "value": 1.632
+                },
+                {
+                  "year": "2010",
+                  "value": 1.854
+                },
+                {
+                  "year": "2011",
+                  "value": 2.266
+                },
+                {
+                  "year": "2012",
+                  "value": 2.635
+                },
+                {
+                  "year": "2013",
+                  "value": 3.627
+                },
+                {
+                  "year": "2014",
+                  "value": 4.298
+                },
+                {
+                  "year": "2015",
+                  "value": 5.716
+                },
+                {
+                  "year": "2016",
+                  "value": 7.542
+                },
+                {
+                  "year": "2017",
+                  "value": 10.333
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "flavor": "bad",
+          "scaleLabel": "drug deaths per 100,000 population",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 18
+            },
+            {
+              "state": "Alaska",
+              "value": 20.2
+            },
+            {
+              "state": "Arizona",
+              "value": 22.2
+            },
+            {
+              "state": "Arkansas",
+              "value": 15.2
+            },
+            {
+              "state": "California",
+              "value": 11.7
+            },
+            {
+              "state": "Colorado",
+              "value": 17.6
+            },
+            {
+              "state": "Connecticut",
+              "value": 30.9
+            },
+            {
+              "state": "Delaware",
+              "value": 37
+            },
+            {
+              "state": "Florida",
+              "value": 25.1
+            },
+            {
+              "state": "Georgia",
+              "value": 14.7
+            },
+            {
+              "state": "Hawaii",
+              "value": 13.8
+            },
+            {
+              "state": "Idaho",
+              "value": 14.4
+            },
+            {
+              "state": "Illinois",
+              "value": 21.6
+            },
+            {
+              "state": "Indiana",
+              "value": 29.4
+            },
+            {
+              "state": "Iowa",
+              "value": 11.5
+            },
+            {
+              "state": "Kansas",
+              "value": 11.8
+            },
+            {
+              "state": "Kentucky",
+              "value": 37.2
+            },
+            {
+              "state": "Louisiana",
+              "value": 24.5
+            },
+            {
+              "state": "Maine",
+              "value": 34.4
+            },
+            {
+              "state": "Maryland",
+              "value": 36.3
+            },
+            {
+              "state": "Massachusetts",
+              "value": 31.8
+            },
+            {
+              "state": "Michigan",
+              "value": 27.8
+            },
+            {
+              "state": "Minnesota",
+              "value": 13.3
+            },
+            {
+              "state": "Mississippi",
+              "value": 12.2
+            },
+            {
+              "state": "Missouri",
+              "value": 23.4
+            },
+            {
+              "state": "Montana",
+              "value": 11.7
+            },
+            {
+              "state": "Nebraska",
+              "value": 8.1
+            },
+            {
+              "state": "Nevada",
+              "value": 21.6
+            },
+            {
+              "state": "New Hampshire",
+              "value": 37
+            },
+            {
+              "state": "New Jersey",
+              "value": 30
+            },
+            {
+              "state": "New Mexico",
+              "value": 24.8
+            },
+            {
+              "state": "New York",
+              "value": 19.4
+            },
+            {
+              "state": "North Carolina",
+              "value": 24.1
+            },
+            {
+              "state": "North Dakota",
+              "value": 9.2
+            },
+            {
+              "state": "Ohio",
+              "value": 46.3
+            },
+            {
+              "state": "Oklahoma",
+              "value": 20.1
+            },
+            {
+              "state": "Oregon",
+              "value": 12.4
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 44.3
+            },
+            {
+              "state": "Rhode Island",
+              "value": 31
+            },
+            {
+              "state": "South Carolina",
+              "value": 20.5
+            },
+            {
+              "state": "South Dakota",
+              "value": 8.5
+            },
+            {
+              "state": "Tennessee",
+              "value": 26.6
+            },
+            {
+              "state": "Texas",
+              "value": 10.5
+            },
+            {
+              "state": "Utah",
+              "value": 22.3
+            },
+            {
+              "state": "Vermont",
+              "value": 23.2
+            },
+            {
+              "state": "Virginia",
+              "value": 17.9
+            },
+            {
+              "state": "Washington",
+              "value": 15.2
+            },
+            {
+              "state": "West Virginia",
+              "value": 57.8
+            },
+            {
+              "state": "Wisconsin",
+              "value": 21.2
+            },
+            {
+              "state": "Wyoming",
+              "value": 12.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Adult smoking",
+      "stat": 17.1,
+      "abbreviation": "%",
+      "description": "adults are smokers as of 2017",
+      "citations": [
+        "“State Health Facts.” <em>Henry J. Kaiser Family Foundation</em>. https://www.kff.org/other/state-indicator",
+        "“Smoking.” <em>USAFACTS</em>. https://usafacts.org/metrics/31795?year=2017",
+        "CDC, Behavioral Risk Factor Surveillance System, changed methodolog in 2011."
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "adult smoking rate (%)",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "pre-2011 methodology",
+              "values": [
+                {
+                  "year": "1996",
+                  "value": 23.4
+                },
+                {
+                  "year": "1997",
+                  "value": 23.2
+                },
+                {
+                  "year": "1998",
+                  "value": 22.9
+                },
+                {
+                  "year": "1999",
+                  "value": 22.7
+                },
+                {
+                  "year": "2000",
+                  "value": 23.2
+                },
+                {
+                  "year": "2001",
+                  "value": 22.9
+                },
+                {
+                  "year": "2002",
+                  "value": 23.1
+                },
+                {
+                  "year": "2003",
+                  "value": 22.0
+                },
+                {
+                  "year": "2004",
+                  "value": 20.8
+                },
+                {
+                  "year": "2005",
+                  "value": 20.6
+                },
+                {
+                  "year": "2006",
+                  "value": 20.0
+                },
+                {
+                  "year": "2007",
+                  "value": 19.7
+                },
+                {
+                  "year": "2008",
+                  "value": 18.3
+                },
+                {
+                  "year": "2009",
+                  "value": 17.9
+                },
+                {
+                  "year": "2010",
+                  "value": 17.3
+                }
+              ]
+            },
+            {
+              "label": "post-2011 methodology",
+              "values": [
+                {
+                  "year": "2011",
+                  "value": 21.2
+                },
+                {
+                  "year": "2012",
+                  "value": 19.6
+                },
+                {
+                  "year": "2013",
+                  "value": 19.0
+                },
+                {
+                  "year": "2014",
+                  "value": 18.1
+                },
+                {
+                  "year": "2015",
+                  "value": 17.5
+                },
+                {
+                  "year": "2016",
+                  "value": 17.0
+                },
+                {
+                  "year": "2017",
+                  "value": 17.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "flavor": "bad",
+          "scaleLabel": "adult smoking rate (%)",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 20.9
+            },
+            {
+              "state": "Alaska",
+              "value": 21.0
+            },
+            {
+              "state": "Arizona",
+              "value": 15.6
+            },
+            {
+              "state": "Arkansas",
+              "value": 22.3
+            },
+            {
+              "state": "California",
+              "value": 11.3
+            },
+            {
+              "state": "Colorado",
+              "value": 14.6
+            },
+            {
+              "state": "Connecticut",
+              "value": 12.7
+            },
+            {
+              "state": "Delaware",
+              "value": 17.0
+            },
+            {
+              "state": "District of Columbia",
+              "value": 14.5
+            },
+            {
+              "state": "Florida",
+              "value": 16.1
+            },
+            {
+              "state": "Georgia",
+              "value": 17.5
+            },
+            {
+              "state": "Hawaii",
+              "value": 12.8
+            },
+            {
+              "state": "Idaho",
+              "value": 14.3
+            },
+            {
+              "state": "Illinois",
+              "value": 15.5
+            },
+            {
+              "state": "Indiana",
+              "value": 21.8
+            },
+            {
+              "state": "Iowa",
+              "value": 17.1
+            },
+            {
+              "state": "Kansas",
+              "value": 17.4
+            },
+            {
+              "state": "Kentucky",
+              "value": 24.6
+            },
+            {
+              "state": "Louisiana",
+              "value": 23.1
+            },
+            {
+              "state": "Maine",
+              "value": 17.3
+            },
+            {
+              "state": "Maryland",
+              "value": 13.8
+            },
+            {
+              "state": "Massachusetts",
+              "value": 13.7
+            },
+            {
+              "state": "Michigan",
+              "value": 19.3
+            },
+            {
+              "state": "Minnesota",
+              "value": 14.5
+            },
+            {
+              "state": "Mississippi",
+              "value": 22.2
+            },
+            {
+              "state": "Missouri",
+              "value": 20.8
+            },
+            {
+              "state": "Montana",
+              "value": 17.2
+            },
+            {
+              "state": "Nebraska",
+              "value": 15.4
+            },
+            {
+              "state": "Nevada",
+              "value": 17.6
+            },
+            {
+              "state": "New Hampshire",
+              "value": 15.7
+            },
+            {
+              "state": "New Jersey",
+              "value": 13.7
+            },
+            {
+              "state": "New Mexico",
+              "value": 17.5
+            },
+            {
+              "state": "New York",
+              "value": 14.1
+            },
+            {
+              "state": "North Carolina",
+              "value": 17.2
+            },
+            {
+              "state": "North Dakota",
+              "value": 18.3
+            },
+            {
+              "state": "Ohio",
+              "value": 21.1
+            },
+            {
+              "state": "Oklahoma",
+              "value": 20.1
+            },
+            {
+              "state": "Oregon",
+              "value": 16.1
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 18.7
+            },
+            {
+              "state": "Rhode Island",
+              "value": 14.9
+            },
+            {
+              "state": "South Carolina",
+              "value": 18.8
+            },
+            {
+              "state": "South Dakota",
+              "value": 19.3
+            },
+            {
+              "state": "Tennessee",
+              "value": 22.6
+            },
+            {
+              "state": "Texas",
+              "value": 15.7
+            },
+            {
+              "state": "Utah",
+              "value": 8.9
+            },
+            {
+              "state": "Vermont",
+              "value": 15.8
+            },
+            {
+              "state": "Virginia",
+              "value": 16.4
+            },
+            {
+              "state": "Washington",
+              "value": 13.5
+            },
+            {
+              "state": "West Virginia",
+              "value": 26.0
+            },
+            {
+              "state": "Wisconsin",
+              "value": 16.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "State spending",
+      "prefix": "$",
+      "stat": 4.17,
+      "abbreviation": null,
+      "description": "per $1,000 of state budgets allocated to substance abuse agencies in 2013",
+      "citations": [
+        "The Pew Charitable Trusts and the United States Census Bureaum as posted on: Freeman, Trevor. “Drug Abuse in the State: Treatment.” <em>Trevor Freeman's blog</em>, The Council of State Governments, Oct. 3, 2017. https://knowledgecenter.csg.org/kc/content/drug-abuse-states-treatment"
+      ],
+      "lensData": [
+        {
+          "lensType": "state",
+          "type": "map",
+          "flavor": "good",
+          "scaleLabel": "State budget allocation (per $1,000) to substance abuse agencies",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 2.3
+            },
+            {
+              "state": "Alaska",
+              "value": 5.9
+            },
+            {
+              "state": "Arizona",
+              "value": 1.9
+            },
+            {
+              "state": "Arkansas",
+              "value": 0.7
+            },
+            {
+              "state": "California",
+              "value": null
+            },
+            {
+              "state": "Colorado",
+              "value": 2.1
+            },
+            {
+              "state": "Connecticut",
+              "value": 9.7
+            },
+            {
+              "state": "Delaware",
+              "value": 4.1
+            },
+            {
+              "state": "Florida",
+              "value": 3.5
+            },
+            {
+              "state": "Georgia",
+              "value": 2.7
+            },
+            {
+              "state": "Hawaii",
+              "value": null
+            },
+            {
+              "state": "Idaho",
+              "value": 6.9
+            },
+            {
+              "state": "Illinois",
+              "value": 3.2
+            },
+            {
+              "state": "Indiana",
+              "value": 0.7
+            },
+            {
+              "state": "Iowa",
+              "value": 2.9
+            },
+            {
+              "state": "Kansas",
+              "value": 2.6
+            },
+            {
+              "state": "Kentucky",
+              "value": 1.5
+            },
+            {
+              "state": "Louisiana",
+              "value": null
+            },
+            {
+              "state": "Maine",
+              "value": 4.6
+            },
+            {
+              "state": "Maryland",
+              "value": 7.7
+            },
+            {
+              "state": "Massachusetts",
+              "value": 3.3
+            },
+            {
+              "state": "Michigan",
+              "value": 3.5
+            },
+            {
+              "state": "Minnesota",
+              "value": 6.1
+            },
+            {
+              "state": "Mississippi",
+              "value": null
+            },
+            {
+              "state": "Missouri",
+              "value": 5.0
+            },
+            {
+              "state": "Montana",
+              "value": 3.8
+            },
+            {
+              "state": "Nebraska",
+              "value": 7.0
+            },
+            {
+              "state": "Nevada",
+              "value": 3.0
+            },
+            {
+              "state": "New Hampshire",
+              "value": 3.5
+            },
+            {
+              "state": "New Jersey",
+              "value": 3.5
+            },
+            {
+              "state": "New Mexico",
+              "value": 3.6
+            },
+            {
+              "state": "New York",
+              "value": 7.0
+            },
+            {
+              "state": "North Carolina",
+              "value": 5.9
+            },
+            {
+              "state": "North Dakota",
+              "value": 4.4
+            },
+            {
+              "state": "Ohio",
+              "value": 2.7
+            },
+            {
+              "state": "Oklahoma",
+              "value": 5.5
+            },
+            {
+              "state": "Oregon",
+              "value": 3.1
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 1.7
+            },
+            {
+              "state": "Rhode Island",
+              "value": 3.1
+            },
+            {
+              "state": "South Carolina",
+              "value": 1.0
+            },
+            {
+              "state": "South Dakota",
+              "value": 8.6
+            },
+            {
+              "state": "Tennessee",
+              "value": 2.1
+            },
+            {
+              "state": "Texas",
+              "value": 0.6
+            },
+            {
+              "state": "Utah",
+              "value": 2.0
+            },
+            {
+              "state": "Vermont",
+              "value": 6.0
+            },
+            {
+              "state": "Virginia",
+              "value": 2.5
+            },
+            {
+              "state": "Washington",
+              "value": 3.6
+            },
+            {
+              "state": "West Virginia",
+              "value": 2.3
+            },
+            {
+              "state": "Wisconsin",
+              "value": 0.3
+            },
+            {
+              "state": "Wyoming",
+              "value": 9.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Excessive drinking",
+      "stat": 19,
+      "abbreviation": "%",
+      "description": "adults binge or chronically drink in 2018",
+      "citations": [
+        "Heavy drinking is defined as binge drinking (4 drinks or more for women or 5 drinks or more for men in the past 30 days) or chronic drinking (8 or more for women or 15 or more for men in one week).",
+        "“Annual Report.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/annual/measure/ExcessDrink/"
+      ],
+      "lensData": [
+        {
+          "lensType": "state",
+          "type": "map",
+          "flavor": "bad",
+          "scaleLabel": "excessive drinking rate (%)",
+          "values": [
+            {
+              "state": "Utah",
+              "value": 12.2
+            },
+            {
+              "state": "West Virginia",
+              "value": 12.3
+            },
+            {
+              "state": "Mississippi",
+              "value": 13.6
+            },
+            {
+              "state": "Alabama",
+              "value": 13.9
+            },
+            {
+              "state": "Oklahoma",
+              "value": 14.1
+            },
+            {
+              "state": "Tennessee",
+              "value": 14.3
+            },
+            {
+              "state": "Georgia",
+              "value": 14.4
+            },
+            {
+              "state": "Arkansas",
+              "value": 15.8
+            },
+            {
+              "state": "New Mexico",
+              "value": 16.2
+            },
+            {
+              "state": "Idaho",
+              "value": 16.6
+            },
+            {
+              "state": "Maryland",
+              "value": 16.6
+            },
+            {
+              "state": "Arizona",
+              "value": 16.7
+            },
+            {
+              "state": "Delaware",
+              "value": 16.8
+            },
+            {
+              "state": "North Carolina",
+              "value": 16.9
+            },
+            {
+              "state": "Connecticut",
+              "value": 17.1
+            },
+            {
+              "state": "Florida",
+              "value": 17.1
+            },
+            {
+              "state": "Kentucky",
+              "value": 17.3
+            },
+            {
+              "state": "South Carolina",
+              "value": 17.4
+            },
+            {
+              "state": "Virginia",
+              "value": 17.4
+            },
+            {
+              "state": "Washington",
+              "value": 17.4
+            },
+            {
+              "state": "Indiana",
+              "value": 17.6
+            },
+            {
+              "state": "New Jersey",
+              "value": 18.1
+            },
+            {
+              "state": "Oregon",
+              "value": 18.6
+            },
+            {
+              "state": "Kansas",
+              "value": 18.7
+            },
+            {
+              "state": "New York",
+              "value": 18.8
+            },
+            {
+              "state": "South Dakota",
+              "value": 19.0
+            },
+            {
+              "state": "California",
+              "value": 19.2
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 19.2
+            },
+            {
+              "state": "Nevada",
+              "value": 19.3
+            },
+            {
+              "state": "Texas",
+              "value": 19.5
+            },
+            {
+              "state": "Vermont",
+              "value": 19.5
+            },
+            {
+              "state": "Louisiana",
+              "value": 19.6
+            },
+            {
+              "state": "Michigan",
+              "value": 19.6
+            },
+            {
+              "state": "Rhode Island",
+              "value": 19.6
+            },
+            {
+              "state": "Missouri",
+              "value": 19.8
+            },
+            {
+              "state": "Wyoming",
+              "value": 19.8
+            },
+            {
+              "state": "Maine",
+              "value": 20.2
+            },
+            {
+              "state": "Ohio",
+              "value": 20.2
+            },
+            {
+              "state": "Colorado",
+              "value": 20.5
+            },
+            {
+              "state": "New Hampshire",
+              "value": 20.7
+            },
+            {
+              "state": "Montana",
+              "value": 20.9
+            },
+            {
+              "state": "Hawaii",
+              "value": 21.1
+            },
+            {
+              "state": "Alaska",
+              "value": 21.3
+            },
+            {
+              "state": "Massachusetts",
+              "value": 21.3
+            },
+            {
+              "state": "Illinois",
+              "value": 21.4
+            },
+            {
+              "state": "Minnesota",
+              "value": 21.7
+            },
+            {
+              "state": "Nebraska",
+              "value": 21.7
+            },
+            {
+              "state": "Iowa",
+              "value": 22.1
+            },
+            {
+              "state": "North Dakota",
+              "value": 24.1
+            },
+            {
+              "state": "Wisconsin",
+              "value": 24.2
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "xAxisLabel": "excessive drinking rate (%)",
+          "yAxisLabel": "household income",
+          "values": [
+            {
+              "name": "below $25k",
+              "value": 13.8
+            },
+            {
+              "name": "$25k–$50k",
+              "value": 17
+            },
+            {
+              "name": "$50k–$75k",
+              "value": 19.6
+            },
+            {
+              "name": "$75k or more",
+              "value": 22.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Access to care",
+      "citations": [
+        "“Admissions for substance use treatment, publicly-funded facilities.” <em>USAFACTS</em>. https://usafacts.org/metrics/114771?year=2017"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 11,
+          "abbreviation": "%",
+          "description": "of the 23 million adults requiring treatment received it at a specialty center"
+        },
+        {
+          "type": "stat",
+          "stat": 2.0,
+          "abbreviation": "M",
+          "description": "were admitted to publicly-funded facitilities for substance abuse treatment in 2017"
+        }
+      ]
+    }
+  ]
+}

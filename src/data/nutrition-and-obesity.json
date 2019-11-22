@@ -1,0 +1,1114 @@
+{
+  "title": "Obesity, Inactivity, and Diabetes",
+  "description": "Adult obesity is at a record high, with 32% of American adults measuring a BMI of 30 or higher. This correlates with the number 1 killer in America, cardiovascular disease. How do these rates compare across America and across the globe?",
+  "illustration" : "",
+  "keyIndicators": [
+    {
+      "title": "Obesity incidence",
+      "stat": 32,
+      "abbreviation": "%",
+      "description": "of adults were obese in 2017",
+      "citations": [
+        "“Obesity.” <em>USAFACTS</em>, 2018. https://usafacts.org/metrics/31777?year=2017",
+        "Obesity, as defined by Centers for Disease Control and Prevention in the Behavioral Risk Factor Surveillance System.",
+        " “Chilhood Obesity Facts.” <em>Centers for Disease Control and Prevention</em>. https://www.cdc.gov/obesity/data/childhood.html",
+        "Obesity Update 2017.” <em>OECD</em>. https://www.oecd.org/health/obesity-update.htm"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "xAxisLabel": null,
+          "yAxisLabel": "obesity rate (%)",
+          "values": [
+            {
+              "label": "U.S.",
+              "values": [
+                {
+                  "year": 1996,
+                  "value": 17
+                },
+                {
+                  "year": 1997,
+                  "value": 17
+                },
+                {
+                  "year": 1998,
+                  "value": 18
+                },
+                {
+                  "year": 1999,
+                  "value": 20
+                },
+                {
+                  "year": 2000,
+                  "value": 20
+                },
+                {
+                  "year": 2001,
+                  "value": 21
+                },
+                {
+                  "year": 2002,
+                  "value": 22
+                },
+                {
+                  "year": 2003,
+                  "value": 23
+                },
+                {
+                  "year": 2004,
+                  "value": 23
+                },
+                {
+                  "year": 2005,
+                  "value": 24
+                },
+                {
+                  "year": 2006,
+                  "value": 25
+                },
+                {
+                  "year": 2007,
+                  "value": 26
+                },
+                {
+                  "year": 2008,
+                  "value": 27
+                },
+                {
+                  "year": 2009,
+                  "value": 27
+                },
+                {
+                  "year": 2010,
+                  "value": 28
+                },
+                {
+                  "year": 2011,
+                  "value": 28
+                },
+                {
+                  "year": 2012,
+                  "value": 28
+                },
+                {
+                  "year": 2013,
+                  "value": 29
+                },
+                {
+                  "year": 2014,
+                  "value": 30
+                },
+                {
+                  "year": 2015,
+                  "value": 30
+                },
+                {
+                  "year": 2016,
+                  "value": 30
+                },
+                {
+                  "year": 2017,
+                  "value": 32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "obesity rate (%)",
+          "values": [
+            {
+              "state": "Hawaii",
+              "value": 24
+            },
+            {
+              "state": "Alaska",
+              "value": 34
+            },
+            {
+              "state": "New Mexico",
+              "value": 28
+            },
+            {
+              "state": "Massachusetts",
+              "value": 26
+            },
+            {
+              "state": "Iowa",
+              "value": 36
+            },
+            {
+              "state": "Colorado",
+              "value": 23
+            },
+            {
+              "state": "Ohio",
+              "value": 34
+            },
+            {
+              "state": "Missouri",
+              "value": 33
+            },
+            {
+              "state": "Wyoming",
+              "value": 29
+            },
+            {
+              "state": "South Carolina",
+              "value": 34
+            },
+            {
+              "state": "Utah",
+              "value": 25
+            },
+            {
+              "state": "Florida",
+              "value": 28
+            },
+            {
+              "state": "New Hampshire",
+              "value": 28
+            },
+            {
+              "state": "Maine",
+              "value": 29
+            },
+            {
+              "state": "Wisconsin",
+              "value": 32
+            },
+            {
+              "state": "Rhode Island",
+              "value": 30
+            },
+            {
+              "state": "Texas",
+              "value": 33
+            },
+            {
+              "state": "Washington",
+              "value": 28
+            },
+            {
+              "state": "Georgia",
+              "value": 32
+            },
+            {
+              "state": "Alabama",
+              "value": 36
+            },
+            {
+              "state": "New Jersey",
+              "value": 27
+            },
+            {
+              "state": "Maryland",
+              "value": 31
+            },
+            {
+              "state": "Indiana",
+              "value": 34
+            },
+            {
+              "state": "California",
+              "value": 25
+            },
+            {
+              "state": "North Dakota",
+              "value": 33
+            },
+            {
+              "state": "Mississippi",
+              "value": 37
+            },
+            {
+              "state": "Louisiana",
+              "value": 36
+            },
+            {
+              "state": "District of Columbia",
+              "value": 23
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 32
+            },
+            {
+              "state": "Nevada",
+              "value": 27
+            },
+            {
+              "state": "South Dakota",
+              "value": 32
+            },
+            {
+              "state": "Vermont",
+              "value": 28
+            },
+            {
+              "state": "Idaho",
+              "value": 29
+            },
+            {
+              "state": "Arizona",
+              "value": 30
+            },
+            {
+              "state": "New York",
+              "value": 26
+            },
+            {
+              "state": "Michigan",
+              "value": 32
+            },
+            {
+              "state": "Kansas",
+              "value": 32
+            },
+            {
+              "state": "Connecticut",
+              "value": 27
+            },
+            {
+              "state": "Oklahoma",
+              "value": 37
+            },
+            {
+              "state": "Montana",
+              "value": 25
+            },
+            {
+              "state": "West Virginia",
+              "value": 38
+            },
+            {
+              "state": "Illinois",
+              "value": 31
+            },
+            {
+              "state": "Arkansas",
+              "value": 35
+            },
+            {
+              "state": "North Carolina",
+              "value": 32
+            },
+            {
+              "state": "Minnesota",
+              "value": 28
+            },
+            {
+              "state": "Kentucky",
+              "value": 34
+            },
+            {
+              "state": "Delaware",
+              "value": 32
+            },
+            {
+              "state": "Oregon",
+              "value": 29
+            },
+            {
+              "state": "Nebraska",
+              "value": 33
+            },
+            {
+              "state": "Tennessee",
+              "value": 33
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "bar",
+          "title": null,
+          "yAxisLabel": "obesity rate (%)",
+          "xAxisLabel": "age",
+          "values": [
+            {
+              "name": "2–19",
+              "value": 18.5
+            },
+            {
+              "name": "20–39",
+              "value": 35.7
+            },
+            {
+              "name": "40–59",
+              "value": 42.8
+            },
+            {
+              "name": "over 60",
+              "value": 41
+            }
+          ]
+        },
+        {
+          "lensType": "global",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "xAxisLabel": "obesity rate (%) in 2016",
+          "values": [
+            {
+              "name": "United States",
+              "value": 40
+            },
+            {
+              "name": "Chile",
+              "value": 34.4
+            },
+            {
+              "name": "Mexico",
+              "value": 33.3
+            },
+            {
+              "name": "New Zealand",
+              "value": 32.2
+            },
+            {
+              "name": "Hungary",
+              "value": 30
+            },
+            {
+              "name": "Turkey",
+              "value": 28.8
+            },
+            {
+              "name": "Portugal",
+              "value": 28.7
+            },
+            {
+              "name": "Canada",
+              "value": 28.1
+            },
+            {
+              "name": "Australia",
+              "value": 27.9
+            },
+            {
+              "name": "Finland",
+              "value": 26.8
+            },
+            {
+              "name": "United Kingdom",
+              "value": 26.2
+            },
+            {
+              "name": "Germany",
+              "value": 23.6
+            },
+            {
+              "name": "Latvia",
+              "value": 23.2
+            },
+            {
+              "name": "Ireland",
+              "value": 23
+            },
+            {
+              "name": "Luxembourg",
+              "value": 22.6
+            },
+            {
+              "name": "Estonia",
+              "value": 19.2
+            },
+            {
+              "name": "Slovenia",
+              "value": 19.2
+            },
+            {
+              "name": "Iceland",
+              "value": 19
+            },
+            {
+              "name": "Israel",
+              "value": 18.8
+            },
+            {
+              "name": "Czech Republic",
+              "value": 18.7
+            },
+            {
+              "name": "Belgium",
+              "value": 18.6
+            },
+            {
+              "name": "France",
+              "value": 17
+            },
+            {
+              "name": "Greece",
+              "value": 17
+            },
+            {
+              "name": "Denmark",
+              "value": 16.8
+            },
+            {
+              "name": "Poland",
+              "value": 16.7
+            },
+            {
+              "name": "Spain",
+              "value": 16.7
+            },
+            {
+              "name": "Lithuania",
+              "value": 16.6
+            },
+            {
+              "name": "Slovak Republic",
+              "value": 16.3
+            },
+            {
+              "name": "Austria",
+              "value": 14.7
+            },
+            {
+              "name": "Netherlands",
+              "value": 13.7
+            },
+            {
+              "name": "Sweden",
+              "value": 13
+            },
+            {
+              "name": "Norway",
+              "value": 12
+            },
+            {
+              "name": "Switzerland",
+              "value": 10.6
+            },
+            {
+              "name": "Italy",
+              "value": 9.8
+            },
+            {
+              "name": "Korea",
+              "value": 5.5
+            },
+            {
+              "name": "Japan",
+              "value": 4.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heart disease deaths",
+      "stat": 257,
+      "description": "deaths per 100,000 population were due to cardiovascular disease in 2017",
+      "citations": [
+        "Annual Report.” <em>America's Health Ranking</em>, United Health Foundation. https://www.americashealthrankings.org/explore/annual/measure/CVDDeaths/state/ALL"
+      ],
+      "lensData": [
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "heart disease deaths per 100,000 population",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 343
+            },
+            {
+              "state": "Alaska",
+              "value": 226
+            },
+            {
+              "state": "Arizona",
+              "value": 217
+            },
+            {
+              "state": "Arkansas",
+              "value": 330
+            },
+            {
+              "state": "California",
+              "value": 231
+            },
+            {
+              "state": "Colorado",
+              "value": 207
+            },
+            {
+              "state": "Connecticut",
+              "value": 218
+            },
+            {
+              "state": "Delaware",
+              "value": 254
+            },
+            {
+              "state": "Florida",
+              "value": 233
+            },
+            {
+              "state": "Georgia",
+              "value": 283
+            },
+            {
+              "state": "Hawaii",
+              "value": 208
+            },
+            {
+              "state": "Idaho",
+              "value": 241
+            },
+            {
+              "state": "Illinois",
+              "value": 260
+            },
+            {
+              "state": "Indiana",
+              "value": 279
+            },
+            {
+              "state": "Iowa",
+              "value": 246
+            },
+            {
+              "state": "Kansas",
+              "value": 258
+            },
+            {
+              "state": "Kentucky",
+              "value": 300
+            },
+            {
+              "state": "Louisiana",
+              "value": 320
+            },
+            {
+              "state": "Maine",
+              "value": 230
+            },
+            {
+              "state": "Maryland",
+              "value": 258
+            },
+            {
+              "state": "Massachusetts",
+              "value": 209
+            },
+            {
+              "state": "Michigan",
+              "value": 298
+            },
+            {
+              "state": "Minnesota",
+              "value": 190
+            },
+            {
+              "state": "Mississippi",
+              "value": 356
+            },
+            {
+              "state": "Missouri",
+              "value": 292
+            },
+            {
+              "state": "Montana",
+              "value": 233
+            },
+            {
+              "state": "Nebraska",
+              "value": 232
+            },
+            {
+              "state": "Nevada",
+              "value": 294
+            },
+            {
+              "state": "New Hampshire",
+              "value": 221
+            },
+            {
+              "state": "New Jersey",
+              "value": 245
+            },
+            {
+              "state": "New Mexico",
+              "value": 225
+            },
+            {
+              "state": "New York",
+              "value": 259
+            },
+            {
+              "state": "North Carolina",
+              "value": 255
+            },
+            {
+              "state": "North Dakota",
+              "value": 238
+            },
+            {
+              "state": "Tennessee",
+              "value": 310
+            },
+            {
+              "state": "Texas",
+              "value": 264
+            },
+            {
+              "state": "Utah",
+              "value": 236
+            },
+            {
+              "state": "Vermont",
+              "value": 238
+            },
+            {
+              "state": "Virginia",
+              "value": 240
+            },
+            {
+              "state": "Washington",
+              "value": 218
+            },
+            {
+              "state": "West Virginia",
+              "value": 300
+            },
+            {
+              "state": "Wisconsin",
+              "value": 239
+            },
+            {
+              "state": "Wyoming",
+              "value": 238
+            }
+          ]
+        },
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "yAxisLabel": "heart disease deaths per 100,000 population",
+          "title": null,
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "U.S.",
+              "values": [
+                {
+                  "year": 1950,
+                  "value": 588.8
+                },
+                {
+                  "year": 1960,
+                  "value": 559.0
+                },
+                {
+                  "year": 1970,
+                  "value": 492.7
+                },
+                {
+                  "year": 1980,
+                  "value": 412.1
+                },
+                {
+                  "year": 1981,
+                  "value": 397.0
+                },
+                {
+                  "year": 1982,
+                  "value": 389.0
+                },
+                {
+                  "year": 1983,
+                  "value": 388.9
+                },
+                {
+                  "year": 1984,
+                  "value": 378.8
+                },
+                {
+                  "year": 1985,
+                  "value": 375.0
+                },
+                {
+                  "year": 1986,
+                  "value": 365.1
+                },
+                {
+                  "year": 1987,
+                  "value": 355.9
+                },
+                {
+                  "year": 1988,
+                  "value": 352.5
+                },
+                {
+                  "year": 1989,
+                  "value": 332.0
+                },
+                {
+                  "year": 1990,
+                  "value": 321.8
+                },
+                {
+                  "year": 1991,
+                  "value": 312.5
+                },
+                {
+                  "year": 1992,
+                  "value": 304.0
+                },
+                {
+                  "year": 1993,
+                  "value": 308.1
+                },
+                {
+                  "year": 1994,
+                  "value": 297.5
+                },
+                {
+                  "year": 1995,
+                  "value": 293.4
+                },
+                {
+                  "year": 1996,
+                  "value": 285.7
+                },
+                {
+                  "year": 1997,
+                  "value": 277.7
+                },
+                {
+                  "year": 1998,
+                  "value": 271.3
+                },
+                {
+                  "year": 1999,
+                  "value": 266.5
+                },
+                {
+                  "year": 2000,
+                  "value": 257.6
+                },
+                {
+                  "year": 2001,
+                  "value": 249.5
+                },
+                {
+                  "year": 2002,
+                  "value": 244.6
+                },
+                {
+                  "year": 2003,
+                  "value": 236.3
+                },
+                {
+                  "year": 2004,
+                  "value": 221.6
+                },
+                {
+                  "year": 2005,
+                  "value": 216.8
+                },
+                {
+                  "year": 2006,
+                  "value": 205.5
+                },
+                {
+                  "year": 2007,
+                  "value": 196.1
+                },
+                {
+                  "year": 2008,
+                  "value": 192.1
+                },
+                {
+                  "year": 2009,
+                  "value": 182.8
+                },
+                {
+                  "year": 2010,
+                  "value": 179.1
+                },
+                {
+                  "year": 2011,
+                  "value": 173.7
+                },
+                {
+                  "year": 2012,
+                  "value": 170.5
+                },
+                {
+                  "year": 2013,
+                  "value": 169.8
+                },
+                {
+                  "year": 2014,
+                  "value": 167.0
+                },
+                {
+                  "year": 2015,
+                  "value": 168.5
+                },
+                {
+                  "year": 2016,
+                  "value": 165.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "xAxisLabel": "heart disease diagnoses per 100,000 population",
+          "values": [
+            {
+              "name": "Black, African American",
+              "value": 328
+            },
+            {
+              "name": "White",
+              "value": 253
+            },
+            {
+              "name": "Hispanic, Latino",
+              "value": 186
+            },
+            {
+              "name": "American Indian, Alaska Native",
+              "value": 179
+            },
+            {
+              "name": "Asian, Pacific Islander",
+              "value": 147
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Diabetes",
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 11,
+          "abbreviation": "%",
+          "description": "of American adults are diagnosed with diabetes",
+          "citations": [
+            "“Diabetes.” <em>USAFACTS</em>. https://usafacts.org/metrics/31759?regions=US&year=2017"
+          ]
+        },
+        {
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "adult diabetes incidence (%)",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "U.S.",
+              "values": [
+                {
+                  "year": 1996,
+                  "value": 5
+                },
+                {
+                  "year": 1997,
+                  "value": 5
+                },
+                {
+                  "year": 1998,
+                  "value": 5
+                },
+                {
+                  "year": 1999,
+                  "value": 6
+                },
+                {
+                  "year": 2000,
+                  "value": 6
+                },
+                {
+                  "year": 2001,
+                  "value": 7
+                },
+                {
+                  "year": 2002,
+                  "value": 7
+                },
+                {
+                  "year": 2003,
+                  "value": 7
+                },
+                {
+                  "year": 2004,
+                  "value": 7
+                },
+                {
+                  "year": 2005,
+                  "value": 7
+                },
+                {
+                  "year": 2006,
+                  "value": 8
+                },
+                {
+                  "year": 2007,
+                  "value": 8
+                },
+                {
+                  "year": 2008,
+                  "value": 8
+                },
+                {
+                  "year": 2009,
+                  "value": 8
+                },
+                {
+                  "year": 2010,
+                  "value": 9
+                },
+                {
+                  "year": 2011,
+                  "value": 10
+                },
+                {
+                  "year": 2012,
+                  "value": 10
+                },
+                {
+                  "year": 2013,
+                  "value": 10
+                },
+                {
+                  "year": 2014,
+                  "value": 10
+                },
+                {
+                  "year": 2015,
+                  "value": 10
+                },
+                {
+                  "year": 2016,
+                  "value": 11
+                },
+                {
+                  "year": 2017,
+                  "value": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Physical inactivity",
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 26,
+          "abbreviation": "%",
+          "description": "of adults do no physical activity other than their regular job",
+          "citations": [
+            "America's Health Rankings analysis of CDC, Behavioral Risk Factor Surveillance System, United Health Foundation, AmericasHealthRankings.org, Accessed 2019., https://www.americashealthrankings.org/explore/annual/measure/Sedentary/state/ALL"
+          ]
+        },
+        {
+          "type": "list",
+          "label": "Healthiest",
+          "list": [
+            "WA",
+            "CO",
+            "CA",
+            "AK",
+            "UT"
+          ]
+        },
+        {
+          "type": "list",
+          "label": "Least-healthy",
+          "list": [
+            "KY",
+            "MS",
+            "AR",
+            "OK",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 0,
+          "description": "more vegetables consumed daily, despite Healthy People 2020 targets.",
+          "citations": [
+            "“Nutrition, Physical Activity, and Obesity.” <em>Healthy People 2020</em>, ODPHP, 2017. https://www.healthypeople.gov/2020/leading-health-indicators/2020-lhi-topics/Nutrition-Physical-Activity-and-Obesity/data"
+          ]
+        },
+        {
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "xAxisLabel": "mean daily vegetable intake, in cups equivalent per 1,000 kcal",
+          "yAxisLabel": "age",
+          "values": [
+            {
+              "name": "2–18",
+              "value": 0.54
+            },
+            {
+              "name": "19-50",
+              "value": 0.79
+            },
+            {
+              "name": "51+",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypertension",
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 46,
+          "abbreviation": "%",
+          "description": "of US adults were diagnosed with hypertension in 2016",
+          "citations": [
+            "Heart Disease and Stroke Statistics-2019 At-a-Glance.” <em>American Heart ASsociation</em>, 2019. https://professional.heart.org/idc/groups/ahamah-public/@wcm/@sop/@smd/documents/downloadable/ucm_503396.pdf"
+          ]
+        },
+        {
+          "type": "stat",
+          "stat": 22,
+          "abbreviation": "%",
+          "description": "of deaths in the US were attributable to hypertension in 2016"
+        },
+        {
+          "type": "stat",
+          "stat": 221,
+          "abbreviation": "B",
+          "prefix": "$",
+          "description": "of direct spending will be due to hypertension by 2035"
+        }
+      ]
+    }
+  ]
+}

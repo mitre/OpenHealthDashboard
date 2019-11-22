@@ -1,0 +1,75 @@
+$line-chart-left-margin: 100px;
+
+.line-chart {
+  $this: &;
+
+  path {
+    fill: none;
+    stroke-width: 3px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-left: $line-chart-left-margin;
+    padding-bottom: 2px;
+    @extend .text-table;
+    font-weight: $font-weight--medium;
+  }
+
+  &__y-axis-title {
+    margin: 0;
+    margin-left: $line-chart-left-margin;
+    padding-bottom: 0px;
+    @extend .text--chart;
+  }
+
+  &--grid-light {
+    .axis__bars {
+      line {
+        stroke: rgba($color-blue--light, 0.25);
+      }
+    }
+  }
+
+  &__legend {
+    padding: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin-right: 50px;
+      margin-bottom: 0px;
+      font-size: $font-size--smaller;
+    }
+
+    &__line {
+      height: 4px;
+      width: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  &__click {
+    rect {
+      opacity: 0;
+    }
+  }
+
+  &__popup {
+    text {
+      fill: $color-gold;
+      font-weight: $font-weight--medium;
+    }
+  }
+
+  &__selected-year-line {
+    stroke-width: 2px;
+    stroke: rgba($color-gold, 0.5);
+  }
+}

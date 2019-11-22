@@ -1,0 +1,783 @@
+{
+  "title": "Mental Health",
+  "description": "While 1 in 5 adults have a mental health condition, most Americans still lack access to care.",
+  "illustration" : "mental-health.svg",
+  "keyIndicators": [
+    {
+      "title": "Suicide rate",
+      "stat": 14.0,
+      "description": "suicides per 100,000 population in 2017",
+      "citations": [
+        "NCHS, National Vital Statistics System, Mortality",
+        "“Annual Report.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/annual/measure/Suicide/",
+        "All suicide rates are age adjusted"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "suicide deaths per 100,000 population",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "U.S.A",
+              "values": [
+                {
+                  "year": 1999,
+                  "value": 10.5
+                },
+                {
+                  "year": 2000,
+                  "value": 10.4
+                },
+                {
+                  "year": 2001,
+                  "value": 10.7
+                },
+                {
+                  "year": 2002,
+                  "value": 10.9
+                },
+                {
+                  "year": 2003,
+                  "value": 10.8
+                },
+                {
+                  "year": 2004,
+                  "value": 11.0
+                },
+                {
+                  "year": 2005,
+                  "value": 10.9
+                },
+                {
+                  "year": 2006,
+                  "value": 11.0
+                },
+                {
+                  "year": 2007,
+                  "value": 11.3
+                },
+                {
+                  "year": 2008,
+                  "value": 11.6
+                },
+                {
+                  "year": 2009,
+                  "value": 11.8
+                },
+                {
+                  "year": 2010,
+                  "value": 12.1
+                },
+                {
+                  "year": 2011,
+                  "value": 12.3
+                },
+                {
+                  "year": 2012,
+                  "value": 12.6
+                },
+                {
+                  "year": 2013,
+                  "value": 12.6
+                },
+                {
+                  "year": 2014,
+                  "value": 13.0
+                },
+                {
+                  "year": 2015,
+                  "value": 13.3
+                },
+                {
+                  "year": 2016,
+                  "value": 13.5
+                },
+                {
+                  "year": 2017,
+                  "value": 14.0
+                }
+              ]
+            },
+            {
+              "label": "World Average",
+              "values": [
+                {
+                  "year": 2000,
+                  "value": 14.1
+                },
+                {
+                  "year": 2001,
+                  "value": 13.4
+                },
+                {
+                  "year": 2002,
+                  "value": 12.9
+                },
+                {
+                  "year": 2003,
+                  "value": 12.8
+                },
+                {
+                  "year": 2004,
+                  "value": 12.6
+                },
+                {
+                  "year": 2005,
+                  "value": 12.5
+                },
+                {
+                  "year": 2006,
+                  "value": 12.0
+                },
+                {
+                  "year": 2007,
+                  "value": 11.7
+                },
+                {
+                  "year": 2008,
+                  "value": 11.5
+                },
+                {
+                  "year": 2009,
+                  "value": 11.3
+                },
+                {
+                  "year": 2010,
+                  "value": 11.2
+                },
+                {
+                  "year": 2011,
+                  "value": 11.0
+                },
+                {
+                  "year": 2012,
+                  "value": 10.7
+                },
+                {
+                  "year": 2013,
+                  "value": 10.4
+                },
+                {
+                  "year": 2014,
+                  "value": 10.3
+                },
+                {
+                  "year": 2015,
+                  "value": 10.1
+                },
+                {
+                  "year": 2016,
+                  "value": 10.0
+                },
+                {
+                  "year": 2017,
+                  "value": 9.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "suicides per 100,000 population",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 16.2
+            },
+            {
+              "state": "Alaska",
+              "value": 25.5
+            },
+            {
+              "state": "Arizona",
+              "value": 18.5
+            },
+            {
+              "state": "Arkansas",
+              "value": 18.6
+            },
+            {
+              "state": "California",
+              "value": 11.1
+            },
+            {
+              "state": "Colorado",
+              "value": 21.0
+            },
+            {
+              "state": "Connecticut",
+              "value": 10.7
+            },
+            {
+              "state": "Delaware",
+              "value": 12.2
+            },
+            {
+              "state": "District of Columbia",
+              "value": 5.5
+            },
+            {
+              "state": "Florida",
+              "value": 14.6
+            },
+            {
+              "state": "Georgia",
+              "value": 13.8
+            },
+            {
+              "state": "Hawaii",
+              "value": 12.2
+            },
+            {
+              "state": "Idaho",
+              "value": 21.5
+            },
+            {
+              "state": "Illinois",
+              "value": 11.0
+            },
+            {
+              "state": "Indiana",
+              "value": 15.7
+            },
+            {
+              "state": "Iowa",
+              "value": 14.7
+            },
+            {
+              "state": "Kansas",
+              "value": 18.1
+            },
+            {
+              "state": "Kentucky",
+              "value": 17.1
+            },
+            {
+              "state": "Louisiana",
+              "value": 14.6
+            },
+            {
+              "state": "Maine",
+              "value": 16.3
+            },
+            {
+              "state": "Maryland",
+              "value": 9.7
+            },
+            {
+              "state": "Massachusetts",
+              "value": 9.0
+            },
+            {
+              "state": "Michigan",
+              "value": 13.6
+            },
+            {
+              "state": "Minnesota",
+              "value": 13.6
+            },
+            {
+              "state": "Mississippi",
+              "value": 13.0
+            },
+            {
+              "state": "Missouri",
+              "value": 18.7
+            },
+            {
+              "state": "Montana",
+              "value": 26.0
+            },
+            {
+              "state": "Nebraska",
+              "value": 13.2
+            },
+            {
+              "state": "Nevada",
+              "value": 22.2
+            },
+            {
+              "state": "New Hampshire",
+              "value": 17.6
+            },
+            {
+              "state": "New Jersey",
+              "value": 7.5
+            },
+            {
+              "state": "New Mexico",
+              "value": 23.0
+            },
+            {
+              "state": "New York",
+              "value": 8.3
+            },
+            {
+              "state": "North Carolina",
+              "value": 13.5
+            },
+            {
+              "state": "North Dakota",
+              "value": 18.8
+            },
+            {
+              "state": "Ohio",
+              "value": 14.6
+            },
+            {
+              "state": "Oklahoma",
+              "value": 21.4
+            },
+            {
+              "state": "Oregon",
+              "value": 18.5
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 15.1
+            },
+            {
+              "state": "Rhode Island",
+              "value": 11.6
+            },
+            {
+              "state": "South Carolina",
+              "value": 16.3
+            },
+            {
+              "state": "South Dakota",
+              "value": 19.5
+            },
+            {
+              "state": "Tennessee",
+              "value": 16.6
+            },
+            {
+              "state": "Texas",
+              "value": 13.0
+            },
+            {
+              "state": "Utah",
+              "value": 22.1
+            },
+            {
+              "state": "Vermont",
+              "value": 18.1
+            },
+            {
+              "state": "Virginia",
+              "value": 13.8
+            },
+            {
+              "state": "Washington",
+              "value": 15.5
+            },
+            {
+              "state": "West Virginia",
+              "value": 19.4
+            },
+            {
+              "state": "Wisconsin",
+              "value": 14.9
+            },
+            {
+              "state": "Wyoming",
+              "value": 25.2
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "yAxisLabel": null,
+          "xAxisLabel": "suicides per 100,000 population",
+          "values": [
+            {
+              "name": "White",
+              "value": 15.7
+            },
+            {
+              "name": "American Indian / Alaskan Native",
+              "value": 13.4
+            },
+            {
+              "name": "Asian",
+              "value": 6.9
+            },
+            {
+              "name": "Hispanic",
+              "value": 6.8
+            },
+            {
+              "name": "Black",
+              "value": 6.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mental health disorders",
+      "stat": 19,
+      "description": "of U.S. adults had a mental illness in 2017",
+      "abbreviation": "%",
+      "citations": [
+        "“Mental Health Information.” <em>National Institute of Mental Health</em>, NIH, HHS,2019. https://www.nimh.nih.gov/health/statistics/mental-illness.shtml#part_154785",
+        "“Mental Health in America.” <em>Mental Health America</em>, 2019. https://mhanational.org/mentalhealthfacts"
+      ],
+      "lensData": [
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "% adults experiencing a mental illness",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 18.47
+            },
+            {
+              "state": "Alaska",
+              "value": 20.01
+            },
+            {
+              "state": "Arizona",
+              "value": 17.52
+            },
+            {
+              "state": "Arkansas",
+              "value": 21.02
+            },
+            {
+              "state": "California",
+              "value": 17.15
+            },
+            {
+              "state": "Colorado",
+              "value": 20.05
+            },
+            {
+              "state": "Connecticut",
+              "value": 18.00
+            },
+            {
+              "state": "Delaware",
+              "value": 17.71
+            },
+            {
+              "state": "District of Columbia",
+              "value": 18.82
+            },
+            {
+              "state": "Florida",
+              "value": 17.30
+            },
+            {
+              "state": "Georgia",
+              "value": 17.74
+            },
+            {
+              "state": "Hawaii",
+              "value": 15.55
+            },
+            {
+              "state": "Idaho",
+              "value": 21.62
+            },
+            {
+              "state": "Illinois",
+              "value": 15.73
+            },
+            {
+              "state": "Indiana",
+              "value": 19.95
+            },
+            {
+              "state": "Iowa",
+              "value": 17.72
+            },
+            {
+              "state": "Kansas",
+              "value": 18.17
+            },
+            {
+              "state": "Kentucky",
+              "value": 22.08
+            },
+            {
+              "state": "Louisiana",
+              "value": 17.31
+            },
+            {
+              "state": "Maine",
+              "value": 17.62
+            },
+            {
+              "state": "Maryland",
+              "value": 16.59
+            },
+            {
+              "state": "Massachusetts",
+              "value": 19.34
+            },
+            {
+              "state": "Michigan",
+              "value": 17.33
+            },
+            {
+              "state": "Minnesota",
+              "value": 18.24
+            },
+            {
+              "state": "Mississippi",
+              "value": 17.49
+            },
+            {
+              "state": "Missouri",
+              "value": 18.03
+            },
+            {
+              "state": "Montana",
+              "value": 20.57
+            },
+            {
+              "state": "Nebraska",
+              "value": 18.39
+            },
+            {
+              "state": "Nevada",
+              "value": 18.33
+            },
+            {
+              "state": "New Hampshire",
+              "value": 19.36
+            },
+            {
+              "state": "New Jersey",
+              "value": 15.50
+            },
+            {
+              "state": "New Mexico",
+              "value": 19.19
+            },
+            {
+              "state": "New York",
+              "value": 17.54
+            },
+            {
+              "state": "North Carolina",
+              "value": 18.98
+            },
+            {
+              "state": "North Dakota",
+              "value": 17.06
+            },
+            {
+              "state": "Ohio",
+              "value": 19.72
+            },
+            {
+              "state": "Oklahoma",
+              "value": 18.93
+            },
+            {
+              "state": "Oregon",
+              "value": 22.61
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 18.76
+            },
+            {
+              "state": "Rhode Island",
+              "value": 19.23
+            },
+            {
+              "state": "South Carolina",
+              "value": 18.12
+            },
+            {
+              "state": "South Dakota",
+              "value": 17.83
+            },
+            {
+              "state": "Tennessee",
+              "value": 19.63
+            },
+            {
+              "state": "Texas",
+              "value": 16.04
+            },
+            {
+              "state": "Utah",
+              "value": 22.27
+            },
+            {
+              "state": "Vermont",
+              "value": 20.85
+            },
+            {
+              "state": "Virginia",
+              "value": 19.96
+            },
+            {
+              "state": "Washington",
+              "value": 20.72
+            },
+            {
+              "state": "West Virginia",
+              "value": 20.90
+            },
+            {
+              "state": "Wisconsin",
+              "value": 18.51
+            },
+            {
+              "state": "Wyoming",
+              "value": 19.46
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Access to care",
+      "citations": ["Access by state is adjudicated by Mental Health America based on 9 metrics, and is discussed at https://mhanational.org/issues/mental-health-america-access-care-data"],
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 12,
+          "description": "of adults with a mental illness remain uninsured in 2019"
+        },
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 21,
+          "description": "of adults with a mental illness report they did not receive needed treatment"
+        },
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 62,
+          "description": "of youth with major depression do not receive treatment"
+        },
+        {
+          "type": "list",
+          "label": "Best access",
+          "list": [
+            "MA",
+            "VT",
+            "MN",
+            "ME",
+            "RI"
+          ]
+        },
+        {
+          "type": "list",
+          "label": "Poorest access",
+          "list": [
+            "MS",
+            "TX",
+            "SC",
+            "AL",
+            "NV"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Related topics",
+      "hide": true,
+      "indicators": [
+        {
+          "type": "link",
+          "text": "Financial barriers to seeing a doctor",
+          "link": "#"
+        },
+        {
+          "type": "link",
+          "text": "Substance abuse",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Loneliness",
+      "citations": [
+        "B. DiJulio, L. Hamel, C. Munana, and M. Brodie. “Loneliness and Social Isolation in the United States, the United Kingdom, and Japan: An International Survey.” <em>Henry J Kaiser Family Foundation</em>, Kaiser Family Foundation, Aug 30, 2018.https://www.kff.org/report-section/loneliness-and-social-isolation-in-the-united-states-the-united-kingdom-and-japan-an-international-survey-section-1/"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 22,
+          "description": "of adults report feeling lonely, left out, isolated, or lacking companionship"
+        }
+      ]
+    },
+    {
+      "title": "Mental health and race",
+      "citations": [
+        "“Annual Report.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/annual/measure/MentalHealth/",
+        "Poor mental health days: mean days in the past 30 days adults reported their mental health was not good"
+      ],
+      "indicators": [
+        {
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "title": null,
+          "yAxisLabel": null,
+          "xAxisLabel": "poor mental health days reported per month",
+          "abbreviation": "",
+          "values": [
+            {
+              "name": "all",
+              "value": 3.9
+            },
+            {
+              "name": "Multiracial",
+              "value": 6.1
+            },
+            {
+              "name": "American Indian / Alaskan Native",
+              "value": 5.5
+            },
+            {
+              "name": "Other race",
+              "value": 4.4
+            },
+            {
+              "name": "Black",
+              "value": 4.2
+            },
+            {
+              "name": "Hawaiian / Pacific Islander",
+              "value": 4.2
+            },
+            {
+              "name": "White",
+              "value": 4.0
+            },
+            {
+              "name": "Hispanic",
+              "value": 3.7
+            },
+            {
+              "name": "Asian",
+              "value": 2.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

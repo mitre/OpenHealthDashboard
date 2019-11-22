@@ -1,0 +1,755 @@
+{
+  "title": "The Opioid Epidemic",
+  "description": "Increased prescriptions of opioid medications has led to widespread abuse of both prescription and non-prescription opioids. The consequences of this epidemic have been devastating, including tens of thousands of deaths and newborns experiencing withdrawal.",
+  "illustration" : "opioids.svg",
+  "keyIndicators": [
+    {
+      "title": "Opioid overdose deaths",
+      "stat": 14.7,
+      "description": "deaths per 100,000 population in 2017",
+      "citations": [
+        "Centers for Disease Control and Prevention. <em>2018 Annual Surveillance Report of Drug-Related Risks and Outcomes — United States.</em> Surveillance Special Report. Centers for Disease Control and Prevention, U.S. Department of Health and Human Services. Published August 31, 2018. https://www.cdc.gov/drugoverdose/pdf/pubs/2018-cdc-drug-surveillance-report.pdf",
+        "“Drug overdose deaths.” <em>USAFACTS</em>. https://usafacts.org/metrics/112637"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "total overdose deaths",
+          "xAxisLabel": null,
+          "zeroYAxis" : true,
+          "values": [
+            {
+              "label": "Opioids",
+              "values": [
+                {
+                  "year": 1999,
+                  "value": 5441
+                },
+                {
+                  "year": 2000,
+                  "value": 5848
+                },
+                {
+                  "year": 2001,
+                  "value": 6957
+                },
+                {
+                  "year": 2002,
+                  "value": 9168
+                },
+                {
+                  "year": 2003,
+                  "value": 10237
+                },
+                {
+                  "year": 2004,
+                  "value": 11449
+                },
+                {
+                  "year": 2005,
+                  "value": 12570
+                },
+                {
+                  "year": 2006,
+                  "value": 15338
+                },
+                {
+                  "year": 2007,
+                  "value": 16391
+                },
+                {
+                  "year": 2008,
+                  "value": 17307
+                },
+                {
+                  "year": 2009,
+                  "value": 18322
+                },
+                {
+                  "year": 2010,
+                  "value": 19155
+                },
+                {
+                  "year": 2011,
+                  "value": 20588
+                },
+                {
+                  "year": 2012,
+                  "value": 21036
+                },
+                {
+                  "year": 2013,
+                  "value": 23153
+                },
+                {
+                  "year": 2014,
+                  "value": 27119
+                },
+                {
+                  "year": 2015,
+                  "value": 31546
+                },
+                {
+                  "year": 2016,
+                  "value": 40778
+                },
+                {
+                  "year": 2017,
+                  "value": 46394
+                }
+              ]
+            },
+            {
+              "label": "Non-opioids",
+              "values": [
+                {
+                  "year": 1999,
+                  "value": 6266
+                },
+                {
+                  "year": 2000,
+                  "value": 6026
+                },
+                {
+                  "year": 2001,
+                  "value": 6355
+                },
+                {
+                  "year": 2002,
+                  "value": 7635
+                },
+                {
+                  "year": 2003,
+                  "value": 8402
+                },
+                {
+                  "year": 2004,
+                  "value": 8518
+                },
+                {
+                  "year": 2005,
+                  "value": 9615
+                },
+                {
+                  "year": 2006,
+                  "value": 10767
+                },
+                {
+                  "year": 2007,
+                  "value": 9725
+                },
+                {
+                  "year": 2008,
+                  "value": 8632
+                },
+                {
+                  "year": 2009,
+                  "value": 8018
+                },
+                {
+                  "year": 2010,
+                  "value": 7961
+                },
+                {
+                  "year": 2011,
+                  "value": 9191
+                },
+                {
+                  "year": 2012,
+                  "value": 9341
+                },
+                {
+                  "year": 2013,
+                  "value": 10680
+                },
+                {
+                  "year": 2014,
+                  "value": 11610
+                },
+                {
+                  "year": 2015,
+                  "value": 14525
+                },
+                {
+                  "year": 2016,
+                  "value": 19654
+                },
+                {
+                  "year": 2017,
+                  "value": 25201
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "opioid deaths per 100,000 population",
+          "values": [
+            {
+              "state": "West Virginia",
+              "value": 49.6
+            },
+            {
+              "state": "Ohio",
+              "value": 39.2
+            },
+            {
+              "state": "Washington D.C.",
+              "value": 34.7
+            },
+            {
+              "state": "New Hampshire",
+              "value": 34.0
+            },
+            {
+              "state": "Maryland",
+              "value": 32.2
+            },
+            {
+              "state": "Maine",
+              "value": 29.9
+            },
+            {
+              "state": "Massachusetts",
+              "value": 28.2
+            },
+            {
+              "state": "Kentucky",
+              "value": 27.9
+            },
+            {
+              "state": "Connecticut",
+              "value": 27.7
+            },
+            {
+              "state": "Rhode Island",
+              "value": 26.9
+            },
+            {
+              "state": "Michigan",
+              "value": 21.2
+            },
+            {
+              "state": "Vermont",
+              "value": 20.0
+            },
+            {
+              "state": "North Carolina",
+              "value": 19.8
+            },
+            {
+              "state": "Tennessee",
+              "value": 19.3
+            },
+            {
+              "state": "Illinois",
+              "value": 17.2
+            },
+            {
+              "state": "Wisconsin",
+              "value": 16.9
+            },
+            {
+              "state": "New Mexico",
+              "value": 16.7
+            },
+            {
+              "state": "Missouri",
+              "value": 16.5
+            },
+            {
+              "state": "New York",
+              "value": 16.1
+            },
+            {
+              "state": "South Carolina",
+              "value": 15.5
+            },
+            {
+              "state": "Utah",
+              "value": 15.5
+            },
+            {
+              "state": "Virginia",
+              "value": 14.8
+            },
+            {
+              "state": "Alaska",
+              "value": 13.9
+            },
+            {
+              "state": "Arizona",
+              "value": 13.5
+            },
+            {
+              "state": "Nevada",
+              "value": 13.3
+            },
+            {
+              "state": "Oklahoma",
+              "value": 10.2
+            },
+            {
+              "state": "Colorado",
+              "value": 10.0
+            },
+            {
+              "state": "Georgia",
+              "value": 9.7
+            },
+            {
+              "state": "Washington",
+              "value": 9.6
+            },
+            {
+              "state": "Oregon",
+              "value": 8.1
+            },
+            {
+              "state": "Minnesota",
+              "value": 7.8
+            },
+            {
+              "state": "Iowa",
+              "value": 6.9
+            },
+            {
+              "state": "California",
+              "value": 5.3
+            },
+            {
+              "state": "Texas",
+              "value": 5.1
+            },
+            {
+              "state": "Hawaii",
+              "value": 3.4
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "xAxisLabel": "opioid deaths per 100,000 population",
+          "values": [
+            {
+              "name": "White",
+              "value": 25.3
+            },
+            {
+              "name": "American Indian / Alaska Native",
+              "value": 24.2
+            },
+            {
+              "name": "Black",
+              "value": 17.1
+            },
+            {
+              "name": "Hispanic",
+              "value": 9.5
+            },
+            {
+              "name": "Asian / Pacific Islander",
+              "value": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Opioid prescription rate",
+      "stat": 17,
+      "abbreviation": "%",
+      "description": "of adults filled at least one opioid prescription in 2017",
+      "citations": [
+        "Opioid Summaries by State.” <em>National Institue on Drug Abuse</em>, NIH, May 2019. https://www.drugabuse.gov/drugs-abuse/opioids/opioid-summaries-by-state"
+      ],
+      "lensData": [
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barDiverging",
+          "title": "% population, filling at least one opioid prescription in 2017",
+          "yAxisLabel": "age",
+          "leftAxisLabel": "female",
+          "rightAxisLabel": "male",
+          "values": [
+            {
+              "name": "15-19",
+              "lValue": 11.8,
+              "rValue": 9.0
+            },
+            {
+              "name": "20-24",
+              "lValue": 16.7,
+              "rValue": 9.6
+            },
+            {
+              "name": "25-34",
+              "lValue": 22.1,
+              "rValue": 12.6
+            },
+            {
+              "name": "35-44",
+              "lValue": 24.2,
+              "rValue": 16.8
+            },
+            {
+              "name": "45-54",
+              "lValue": 25.9,
+              "rValue": 20.2
+            },
+            {
+              "name": "55-64",
+              "lValue": 27.8,
+              "rValue": 24.6
+            },
+            {
+              "name": "65+",
+              "lValue": 28.2,
+              "rValue": 25.1
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "total opioid prescriptions in 2017 per 100 persons",
+          "values": [
+            {
+              "state": "West Virginia",
+              "value": 81.3
+            },
+            {
+              "state": "Ohio",
+              "value": 63.5
+            },
+            {
+              "state": "Washington D.C.",
+              "value": 28.5
+            },
+            {
+              "state": "New Hampshire",
+              "value": 52.8
+            },
+            {
+              "state": "Maryland",
+              "value": 51.7
+            },
+            {
+              "state": "Maine",
+              "value": 55.7
+            },
+            {
+              "state": "Massachusetts",
+              "value": 40.1
+            },
+            {
+              "state": "Kentucky",
+              "value": 86.8
+            },
+            {
+              "state": "Connecticut",
+              "value": 48.0
+            },
+            {
+              "state": "Rhode Island",
+              "value": 51.2
+            },
+            {
+              "state": "Michigan",
+              "value": 74.0
+            },
+            {
+              "state": "Vermont",
+              "value": 50.5
+            },
+            {
+              "state": "North Carolina",
+              "value": 72.0
+            },
+            {
+              "state": "Tennessee",
+              "value": 94.4
+            },
+            {
+              "state": "Illinois",
+              "value": 51.1
+            },
+            {
+              "state": "Wisconsin",
+              "value": 52.6
+            },
+            {
+              "state": "New Mexico",
+              "value": 56.4
+            },
+            {
+              "state": "Missouri",
+              "value": 71.8
+            },
+            {
+              "state": "New York",
+              "value": 37.8
+            },
+            {
+              "state": "South Carolina",
+              "value": 79.3
+            },
+            {
+              "state": "Utah",
+              "value": 63.8
+            },
+            {
+              "state": "Virginia",
+              "value": 52.9
+            },
+            {
+              "state": "Alaska",
+              "value": 52.0
+            },
+            {
+              "state": "Arizona",
+              "value": 61.2
+            },
+            {
+              "state": "Nevada",
+              "value": 73.0
+            },
+            {
+              "state": "Oklahoma",
+              "value": 88.1
+            },
+            {
+              "state": "Colorado",
+              "value": 52.9
+            },
+            {
+              "state": "Georgia",
+              "value": 70.9
+            },
+            {
+              "state": "Washington",
+              "value": 57.2
+            },
+            {
+              "state": "Oregon",
+              "value": 66.1
+            },
+            {
+              "state": "Minnesota",
+              "value": 41.0
+            },
+            {
+              "state": "Iowa",
+              "value": 56.4
+            },
+            {
+              "state": "California",
+              "value": 39.5
+            },
+            {
+              "state": "Texas",
+              "value": 53.1
+            },
+            {
+              "state": "Hawaii",
+              "value": 37.0
+            },
+            {
+              "state": "Alabama",
+              "value": 107.2
+            },
+            {
+              "state": "Arkansas",
+              "value": 105.4
+            },
+            {
+              "state": "Delaware",
+              "value": 68.3
+            },
+            {
+              "state": "Florida",
+              "value": 60.9
+            },
+            {
+              "state": "Idaho",
+              "value": 70.3
+            },
+            {
+              "state": "Indiana",
+              "value": 74.2
+            },
+            {
+              "state": "Kansas",
+              "value": 69.8
+            },
+            {
+              "state": "Louisiana",
+              "value": 89.5
+            },
+            {
+              "state": "Mississippi",
+              "value": 92.9
+            },
+            {
+              "state": "Montana",
+              "value": 61.1
+            },
+            {
+              "state": "Nebraska",
+              "value": 56.6
+            },
+            {
+              "state": "New Jersey",
+              "value": 44.2
+            },
+            {
+              "state": "North Dakota",
+              "value": 41.5
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 57.7
+            },
+            {
+              "state": "South Dakota",
+              "value": 49.0
+            },
+            {
+              "state": "Wyoming",
+              "value": 64.8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Substances",
+      "citations": [
+        "Centers for Disease Control and Prevention. <em>2018 Annual Surveillance Report of Drug-Related Risks and Outcomes — United States.</em> Surveillance Special Report. Centers for Disease Control and Prevention, U.S. Department of Health and Human Services. Published August 31, 2018. https://www.cdc.gov/drugoverdose/pdf/pubs/2018-cdc-drug-surveillance-report.pdf",
+        "“Drug overdose deaths.” <em>USAFACTS</em>. https://usafacts.org/metrics/112637"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 67,
+          "abbreviation": "%",
+          "description": "of the 64k drug overdose deaths were due to opioids in 2017"
+        },
+        {
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "title": null,
+          "yAxisLabel": null,
+          "xAxisLabel": "opioid related deaths per 100,000 persons",
+          "values": [
+            {
+              "name": "ANY",
+              "value": 13.3,
+              "emphasis": true
+            },
+            {
+              "name": "other synthetics",
+              "value": 6.2
+            },
+            {
+              "name": "prescription",
+              "value": 5.2
+            },
+            {
+              "name": "heroin",
+              "value": 4.9
+            },
+            {
+              "name": "methadone",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Related topics",
+      "hide": true,
+      "indicators": [
+        {
+          "type": "link",
+          "text": "Substance abuse",
+          "link": "#"
+        },
+        {
+          "type": "link",
+          "text": "Mental health",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Treatment",
+      "citations": [
+        "“Treatment for substance use.” <em>USAFACTS</em>. https://usafacts.org/metrics/114044"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 2.1,
+          "abbreviation": "M",
+          "description": "people received treatment for opioid abuse in 2017"
+        }
+      ]
+    },
+    {
+      "title": "First time use",
+      "citations": [
+        "Centers for Disease Control and Prevention. <em>2018 Annual Surveillance Report of Drug-Related Risks and Outcomes — United States.</em> Surveillance Special Report. Centers for Disease Control and Prevention, U.S. Department of Health and Human Services. Published August 31, 2018. https://www.cdc.gov/drugoverdose/pdf/pubs/2018-cdc-drug-surveillance-report.pdf"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 2.1,
+          "abbreviation": "M",
+          "description": "people reported first time misuse of prescription painkillers in 2017"
+        },
+        {
+          "type": "table",
+          "labelRow": [
+            "age",
+            "prescriptions",
+            "%"
+          ],
+          "headerRow": [
+            "12+",
+            "2,139",
+            "0.8"
+          ],
+          "rows": [
+            [
+              "12-17",
+              "423",
+              "1.7"
+            ],
+            [
+              "18-25",
+              "585",
+              "1.7"
+            ],
+            [
+              "26+",
+              "1,130",
+              "0.5"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

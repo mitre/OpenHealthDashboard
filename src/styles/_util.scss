@@ -1,0 +1,45 @@
+.border {
+  &--right {
+    border-right: 1px solid black;
+  }
+}
+
+.background {
+  &--gradient-light {
+    background: $gradient-blue--top;
+  }
+}
+
+.list {
+  &--no-style {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+.rotate {
+  &--90 {
+    transform: rotate(90deg);
+  }
+
+  &--180 {
+    transform: rotate(180deg);
+  }
+
+  &--270 {
+    transform: rotate(270deg);
+  }
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.back_blur {
+  backdrop-filter: blur(10px);
+}
+
+.h-100 {
+  height: 100% !important;
+}

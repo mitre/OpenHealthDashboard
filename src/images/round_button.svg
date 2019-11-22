@@ -1,0 +1,15 @@
+<svg width="56" height="8" viewBox="0 0 56 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.9" d="M53 7.75L4 7.75C1.92893 7.75 0.25 6.07107 0.25 4C0.25 1.92893 1.92893 0.25 4 0.25L53 0.25C54.5188 0.25 55.75 1.48122 55.75 3V5C55.75 6.51878 54.5188 7.75 53 7.75Z" stroke="url(#button_paint0_linear)" stroke-width="0.5"/>
+<circle cx="4" cy="4" r="4" fill="url(#button_paint1_radial)"/>
+<defs>
+<linearGradient id="button_paint0_linear" x1="9.5" y1="4" x2="4.50654e-06" y2="4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA842"/>
+<stop offset="0.930594" stop-color="#FFA842" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="button_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4 4) rotate(90) scale(4)">
+<stop offset="0.463542" stop-color="#FF9B3D"/>
+<stop offset="0.887254" stop-color="#FFAA42" stop-opacity="0.78"/>
+<stop offset="1" stop-color="#FFAD42" stop-opacity="0.58"/>
+</radialGradient>
+</defs>
+</svg>

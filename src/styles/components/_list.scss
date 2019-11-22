@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+
+  &__empty {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 20%;
+    flex-shrink: 0;
+  }
+
+  &__content{
+    display: flex;
+    flex-basis: 80%;
+    align-items: baseline;
+  }
+
+  &__label {
+    flex-shrink: 0;
+    width: 25%;
+    padding-left: 5%;
+    @extend .text--chart;
+    align-items: baseline;
+  }
+
+  &__values {
+    flex: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    @extend .text-table;
+    font-weight: $font-weight--medium;
+    align-items: baseline;
+  }
+}

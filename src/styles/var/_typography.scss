@@ -1,0 +1,67 @@
+$font-size--base: $t1v-screen-width * .003; //target 40
+
+$font-size--smaller: $font-size--base * 7 / 10; //target 7*4
+$font-size--small: $font-size--base * 9 / 10; //target 9*4
+
+$font-size--medium: $font-size--base * 16 / 10; //target 16*4
+$font-size--large: $font-size--base * 18 / 10; //target 18*4
+$font-size--larger: $font-size--base * 21 / 10; //target 21*4
+$font-size--largest: $font-size--base * 27 / 10; //target 27*4
+$font-size--huge: $font-size--base * 39 / 10; //target 39*4
+
+$font-family: 'alegreya-sans';
+
+$font-weight--light: 300;
+$font-weight--medium: 500;
+$font-weight--bold: 700;
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-bold-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-bold-webfont.woff') format('woff');
+  font-weight: $font-weight--bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-medium-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-medium-webfont.woff') format('woff');
+  font-weight: $font-weight--medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-medium-lining-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-medium-lining-webfont.woff') format('woff');
+  font-weight: $font-weight--medium;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+}
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-light-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-light-webfont.woff') format('woff');
+  font-weight: $font-weight--light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-light-lining-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-light-lining-webfont.woff') format('woff');
+  font-weight: $font-weight--light;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+}
+
+
+@font-face {
+  font-family: 'alegreya-sans';
+  src: url('../fonts/alegreyasans-light-italic-webfont.woff2') format('woff2'),
+       url('../fonts/alegreyasans-light-italic-webfont.woff') format('woff');
+  font-weight: $font-weight--light;
+  font-style: italic;
+}

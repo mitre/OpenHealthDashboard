@@ -1,0 +1,26 @@
+.supporting-indicator-group {
+  //background-color: $color-blue--dark;
+  border-bottom: 8px solid $color-blue--darkest;
+
+  &.last-one{
+    border-bottom: 0px;
+  }
+
+  &__title{
+    font-size: $font-size--medium;
+    color: $color-text--white;
+    line-height: $font-size--large;
+    padding-bottom: 15px;
+  }
+}
+
+.supporting-indicator {
+  padding-top: 15px;
+
+  &__divider {
+      height: 1px;
+      background-color: white;
+      opacity: 0.3;
+      margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,114 @@
+.text {
+  &--blue {
+    &--lightest {
+      color: $color-blue--lightest;
+    }
+    &--dark {
+      color: $color-blue--dark;
+    }
+    &--darkest {
+      color: $color-blue--darkest;
+    }
+  }
+  &--yellow {
+    color: $color-text--yellow;
+  }
+  &--gray {
+    color: $color-text--gray;
+  }
+  &--white {
+    color: $color-text--white;
+  }
+  &--gold {
+    color: $color-gold;
+  }
+
+
+  &-size {
+    &--smaller {
+      font-size: $font-size--smaller;
+    }
+    &--small {
+      font-size: $font-size--small;
+    }
+    &--regular {
+      font-size: $font-size--base;
+    }
+
+    &--medium {
+      font-size: $font-size--medium;
+    }
+
+    &--large {
+      font-size: $font-size--large;
+    }
+
+    &--larger {
+      font-size: $font-size--larger;
+    }
+
+    &--largest {
+      font-size: $font-size--largest;
+    }
+    &--huge {
+      font-size: $font-size--huge;
+    }
+  }
+  &-face {
+    &--bold {
+      font-weight: $font-weight--bold;
+    }
+    &--light {
+      font-weight: $font-weight--light;
+    }
+    &--medium {
+      font-weight: $font-weight--medium;
+    }
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--capitalize {
+    text-transform: capitalize;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--chart {
+    font-family: $font-family;
+    color: $color-text--white;
+    font-size: $font-size--smaller;
+    font-weight: $font-weight--light;
+    line-height: $font-size--smaller;
+    font-variant-numeric: lining-nums proportional-nums;
+    margin: 0;
+  }
+
+  &-table {
+    font-size: $font-size--small;
+    line-height: $font-size--small;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-weight: $font-weight--light;
+    margin: 0;
+  }
+}
+
+html,
+body {
+  @extend .text-size--regular;
+  @extend .text--white;
+  font-family: $font-family;
+  font-weight: $font-weight--light;
+  margin: 0;
+
+  &.p {
+    margin: 0;
+  }
+}

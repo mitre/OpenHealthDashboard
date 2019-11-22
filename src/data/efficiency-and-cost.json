@@ -1,0 +1,1202 @@
+{
+  "title": "Cost & Efficiency",
+  "description": "Americans spent $3.5 trillion on healthcare in 2017, more than any other nation. Yet, our outcomes are lacking. Are we getting a good deal?",
+  "illustration": "costs.svg",
+  "keyIndicators": [
+    {
+      "title": "Healthcare expenditure",
+      "stat": 10.6,
+      "prefix": "$",
+      "abbreviation": "k",
+      "description": "spent per capita on healthcare in 2018",
+      "citations": [
+        "“Health spending.” <em>OECD Data</em>, OECD. https://data.oecd.org/healthres/health-spending.htm"
+      ],
+      "lensData": [
+        {
+          "lensType": "global",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "yAxisLabel": null,
+          "xAxisLabel": "$ spent per capita on healthcare",
+          "abbreviation": "k",
+          "values": [
+            {
+              "name": "United States",
+              "value": 10.6
+            },
+            {
+              "name": "Switzerland",
+              "value": 7.3
+            },
+            {
+              "name": "Norway",
+              "value": 6.2
+            },
+            {
+              "name": "Germany",
+              "value": 6.0
+            },
+            {
+              "name": "Sweden",
+              "value": 5.4
+            },
+            {
+              "name": "Austria",
+              "value": 5.4
+            },
+            {
+              "name": "Denmark",
+              "value": 5.3
+            },
+            {
+              "name": "Netherlands",
+              "value": 5.3
+            },
+            {
+              "name": "Luxembourg",
+              "value": 5.1
+            },
+            {
+              "name": "Australia",
+              "value": 5.0
+            },
+            {
+              "name": "Canada",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "per capita expenditure on healthcare ($)",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "USA",
+              "values": [
+                {
+                  "year": 1970,
+                  "value": 327.0
+                },
+                {
+                  "year": 1971,
+                  "value": 358.0
+                },
+                {
+                  "year": 1972,
+                  "value": 397.1
+                },
+                {
+                  "year": 1973,
+                  "value": 439.3
+                },
+                {
+                  "year": 1974,
+                  "value": 495.1
+                },
+                {
+                  "year": 1975,
+                  "value": 560.8
+                },
+                {
+                  "year": 1976,
+                  "value": 638.9
+                },
+                {
+                  "year": 1977,
+                  "value": 726.2
+                },
+                {
+                  "year": 1978,
+                  "value": 808.9
+                },
+                {
+                  "year": 1979,
+                  "value": 909.0
+                },
+                {
+                  "year": 1980,
+                  "value": 1036.3
+                },
+                {
+                  "year": 1981,
+                  "value": 1191.5
+                },
+                {
+                  "year": 1982,
+                  "value": 1329.7
+                },
+                {
+                  "year": 1983,
+                  "value": 1451.9
+                },
+                {
+                  "year": 1984,
+                  "value": 1590.7
+                },
+                {
+                  "year": 1985,
+                  "value": 1735.2
+                },
+                {
+                  "year": 1986,
+                  "value": 1847.8
+                },
+                {
+                  "year": 1987,
+                  "value": 1990.5
+                },
+                {
+                  "year": 1988,
+                  "value": 2210.7
+                },
+                {
+                  "year": 1989,
+                  "value": 2440.1
+                },
+                {
+                  "year": 1990,
+                  "value": 2700.4
+                },
+                {
+                  "year": 1991,
+                  "value": 2916.0
+                },
+                {
+                  "year": 1992,
+                  "value": 3113.8
+                },
+                {
+                  "year": 1993,
+                  "value": 3300.0
+                },
+                {
+                  "year": 1994,
+                  "value": 3442.0
+                },
+                {
+                  "year": 1995,
+                  "value": 3598.4
+                },
+                {
+                  "year": 1996,
+                  "value": 3747.6
+                },
+                {
+                  "year": 1997,
+                  "value": 3905.4
+                },
+                {
+                  "year": 1998,
+                  "value": 4093.1
+                },
+                {
+                  "year": 1999,
+                  "value": 4289.6
+                },
+                {
+                  "year": 2000,
+                  "value": 4557.2
+                },
+                {
+                  "year": 2001,
+                  "value": 4908.7
+                },
+                {
+                  "year": 2002,
+                  "value": 5326.1
+                },
+                {
+                  "year": 2003,
+                  "value": 5735.5
+                },
+                {
+                  "year": 2004,
+                  "value": 6094.2
+                },
+                {
+                  "year": 2005,
+                  "value": 6443.3
+                },
+                {
+                  "year": 2006,
+                  "value": 6807.1
+                },
+                {
+                  "year": 2007,
+                  "value": 7160.7
+                },
+                {
+                  "year": 2008,
+                  "value": 7403.1
+                },
+                {
+                  "year": 2009,
+                  "value": 7682.0
+                },
+                {
+                  "year": 2010,
+                  "value": 7939.3
+                },
+                {
+                  "year": 2011,
+                  "value": 8154.4
+                },
+                {
+                  "year": 2012,
+                  "value": 8423.3
+                },
+                {
+                  "year": 2013,
+                  "value": 8628.6
+                },
+                {
+                  "year": 2014,
+                  "value": 9042.3
+                },
+                {
+                  "year": 2015,
+                  "value": 9505.1
+                },
+                {
+                  "year": 2016,
+                  "value": 9903.7
+                },
+                {
+                  "year": 2017,
+                  "value": 10206.5
+                },
+                {
+                  "year": 2018,
+                  "value": 10586.1
+                }
+              ]
+            },
+            {
+              "label": "OECD Average",
+              "values": [
+                {
+                  "year": 2003,
+                  "value": 2210.5
+                },
+                {
+                  "year": 2004,
+                  "value": 2352.9
+                },
+                {
+                  "year": 2005,
+                  "value": 2439.4
+                },
+                {
+                  "year": 2006,
+                  "value": 2580.4
+                },
+                {
+                  "year": 2007,
+                  "value": 2733.4
+                },
+                {
+                  "year": 2008,
+                  "value": 2905.8
+                },
+                {
+                  "year": 2009,
+                  "value": 2998.9
+                },
+                {
+                  "year": 2010,
+                  "value": 3079.9
+                },
+                {
+                  "year": 2011,
+                  "value": 3164.6
+                },
+                {
+                  "year": 2012,
+                  "value": 3283.2
+                },
+                {
+                  "year": 2013,
+                  "value": 3403.6
+                },
+                {
+                  "year": 2014,
+                  "value": 3480.5
+                },
+                {
+                  "year": 2015,
+                  "value": 3586.1
+                },
+                {
+                  "year": 2016,
+                  "value": 3715.2
+                },
+                {
+                  "year": 2017,
+                  "value": 3854.4
+                },
+                {
+                  "year": 2018,
+                  "value": 3992.3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Healthcare expenditure ",
+      "stat": 17,
+      "abbreviation": "%",
+      "description": "of total GDP spent on healthcare in 2018",
+      "lensData": [
+        {
+          "lensType": "global",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "yAxisLabel": null,
+          "xAxisLabel": "% GDP spent on healthcare",
+          "abbreviation": "%",
+          "values": [
+            {
+              "name": "United States",
+              "value": 17
+            },
+            {
+              "name": "Switzerland",
+              "value": 12
+            },
+            {
+              "name": "France",
+              "value": 11
+            },
+            {
+              "name": "Germany",
+              "value": 11
+            },
+            {
+              "name": "Japan",
+              "value": 11
+            },
+            {
+              "name": "Canada",
+              "value": 10
+            },
+            {
+              "name": "Austria",
+              "value": 10
+            },
+            {
+              "name": "Netherlands",
+              "value": 10
+            },
+            {
+              "name": "Belgium",
+              "value": 10
+            },
+            {
+              "name": "United Kingdom",
+              "value": 10
+            },
+            {
+              "name": "Australia",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": "Healthcare expenditure as percent of GDP over time",
+          "yAxisLabel": null,
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "USA",
+              "values": [
+                {
+                  "year": 1970,
+                  "value": 6.2
+                },
+                {
+                  "year": 1971,
+                  "value": 6.4
+                },
+                {
+                  "year": 1972,
+                  "value": 6.5
+                },
+                {
+                  "year": 1973,
+                  "value": 6.5
+                },
+                {
+                  "year": 1974,
+                  "value": 6.9
+                },
+                {
+                  "year": 1975,
+                  "value": 7.2
+                },
+                {
+                  "year": 1976,
+                  "value": 7.4
+                },
+                {
+                  "year": 1977,
+                  "value": 7.7
+                },
+                {
+                  "year": 1978,
+                  "value": 7.7
+                },
+                {
+                  "year": 1979,
+                  "value": 7.8
+                },
+                {
+                  "year": 1980,
+                  "value": 8.2
+                },
+                {
+                  "year": 1981,
+                  "value": 8.5
+                },
+                {
+                  "year": 1982,
+                  "value": 9.2
+                },
+                {
+                  "year": 1983,
+                  "value": 9.3
+                },
+                {
+                  "year": 1984,
+                  "value": 9.3
+                },
+                {
+                  "year": 1985,
+                  "value": 9.5
+                },
+                {
+                  "year": 1986,
+                  "value": 9.7
+                },
+                {
+                  "year": 1987,
+                  "value": 9.9
+                },
+                {
+                  "year": 1988,
+                  "value": 10.3
+                },
+                {
+                  "year": 1989,
+                  "value": 10.7
+                },
+                {
+                  "year": 1990,
+                  "value": 11.3
+                },
+                {
+                  "year": 1991,
+                  "value": 12.0
+                },
+                {
+                  "year": 1992,
+                  "value": 12.3
+                },
+                {
+                  "year": 1993,
+                  "value": 12.5
+                },
+                {
+                  "year": 1994,
+                  "value": 12.4
+                },
+                {
+                  "year": 1995,
+                  "value": 12.5
+                },
+                {
+                  "year": 1996,
+                  "value": 12.5
+                },
+                {
+                  "year": 1997,
+                  "value": 12.4
+                },
+                {
+                  "year": 1998,
+                  "value": 12.4
+                },
+                {
+                  "year": 1999,
+                  "value": 12.4
+                },
+                {
+                  "year": 2000,
+                  "value": 12.5
+                },
+                {
+                  "year": 2001,
+                  "value": 13.2
+                },
+                {
+                  "year": 2002,
+                  "value": 14.0
+                },
+                {
+                  "year": 2003,
+                  "value": 14.5
+                },
+                {
+                  "year": 2004,
+                  "value": 14.6
+                },
+                {
+                  "year": 2005,
+                  "value": 14.6
+                },
+                {
+                  "year": 2006,
+                  "value": 14.7
+                },
+                {
+                  "year": 2007,
+                  "value": 14.9
+                },
+                {
+                  "year": 2008,
+                  "value": 15.3
+                },
+                {
+                  "year": 2009,
+                  "value": 16.3
+                },
+                {
+                  "year": 2010,
+                  "value": 16.4
+                },
+                {
+                  "year": 2011,
+                  "value": 16.4
+                },
+                {
+                  "year": 2012,
+                  "value": 16.3
+                },
+                {
+                  "year": 2013,
+                  "value": 16.3
+                },
+                {
+                  "year": 2014,
+                  "value": 16.4
+                },
+                {
+                  "year": 2015,
+                  "value": 16.7
+                },
+                {
+                  "year": 2016,
+                  "value": 17.1
+                },
+                {
+                  "year": 2017,
+                  "value": 17.1
+                },
+                {
+                  "year": 2018,
+                  "value": 16.9
+                }
+              ]
+            },
+            {
+              "label": "OECD Average",
+              "values": [
+                {
+                  "year": 2003,
+                  "value": 7.9
+                },
+                {
+                  "year": 2004,
+                  "value": 7.9
+                },
+                {
+                  "year": 2005,
+                  "value": 8.0
+                },
+                {
+                  "year": 2006,
+                  "value": 7.9
+                },
+                {
+                  "year": 2007,
+                  "value": 7.9
+                },
+                {
+                  "year": 2008,
+                  "value": 8.2
+                },
+                {
+                  "year": 2009,
+                  "value": 8.8
+                },
+                {
+                  "year": 2010,
+                  "value": 8.7
+                },
+                {
+                  "year": 2011,
+                  "value": 8.7
+                },
+                {
+                  "year": 2012,
+                  "value": 8.7
+                },
+                {
+                  "year": 2013,
+                  "value": 8.8
+                },
+                {
+                  "year": 2014,
+                  "value": 8.8
+                },
+                {
+                  "year": 2015,
+                  "value": 8.8
+                },
+                {
+                  "year": 2016,
+                  "value": 8.8
+                },
+                {
+                  "year": 2017,
+                  "value": 8.8
+                },
+                {
+                  "year": 2018,
+                  "value": 8.8
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Life expectancy",
+      "citations": [
+        "OECD (2019), “Life expectancy at birth” (indicator), https://doi.org/10.1787/27e0fc9d-en (accessed on 11 September 2019)."
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "stat": 78.6,
+          "description": "years of life expectancy for Americans born in 2017"
+        },
+        {
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "life expectancy (years)",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "USA",
+              "values": [
+                {
+                  "year": 1950,
+                  "value": 68.2
+                },
+                {
+                  "year": 1951,
+                  "value": 68.3
+                },
+                {
+                  "year": 1952,
+                  "value": 68.6
+                },
+                {
+                  "year": 1953,
+                  "value": 68.8
+                },
+                {
+                  "year": 1954,
+                  "value": 69.1
+                },
+                {
+                  "year": 1955,
+                  "value": 69.3
+                },
+                {
+                  "year": 1956,
+                  "value": 69.4
+                },
+                {
+                  "year": 1957,
+                  "value": 69.6
+                },
+                {
+                  "year": 1958,
+                  "value": 69.7
+                },
+                {
+                  "year": 1959,
+                  "value": 69.8
+                },
+                {
+                  "year": 1960,
+                  "value": 69.9
+                },
+                {
+                  "year": 1961,
+                  "value": 70.4
+                },
+                {
+                  "year": 1962,
+                  "value": 70.2
+                },
+                {
+                  "year": 1963,
+                  "value": 70.0
+                },
+                {
+                  "year": 1964,
+                  "value": 70.3
+                },
+                {
+                  "year": 1965,
+                  "value": 70.3
+                },
+                {
+                  "year": 1966,
+                  "value": 70.3
+                },
+                {
+                  "year": 1967,
+                  "value": 70.7
+                },
+                {
+                  "year": 1968,
+                  "value": 70.4
+                },
+                {
+                  "year": 1969,
+                  "value": 70.6
+                },
+                {
+                  "year": 1970,
+                  "value": 70.9
+                },
+                {
+                  "year": 1971,
+                  "value": 71.2
+                },
+                {
+                  "year": 1972,
+                  "value": 71.3
+                },
+                {
+                  "year": 1973,
+                  "value": 71.5
+                },
+                {
+                  "year": 1974,
+                  "value": 72.1
+                },
+                {
+                  "year": 1975,
+                  "value": 72.7
+                },
+                {
+                  "year": 1976,
+                  "value": 73.0
+                },
+                {
+                  "year": 1977,
+                  "value": 73.4
+                },
+                {
+                  "year": 1978,
+                  "value": 73.5
+                },
+                {
+                  "year": 1979,
+                  "value": 73.9
+                },
+                {
+                  "year": 1980,
+                  "value": 73.7
+                },
+                {
+                  "year": 1981,
+                  "value": 74.1
+                },
+                {
+                  "year": 1982,
+                  "value": 74.5
+                },
+                {
+                  "year": 1983,
+                  "value": 74.6
+                },
+                {
+                  "year": 1984,
+                  "value": 74.7
+                },
+                {
+                  "year": 1985,
+                  "value": 74.7
+                },
+                {
+                  "year": 1986,
+                  "value": 74.7
+                },
+                {
+                  "year": 1987,
+                  "value": 74.9
+                },
+                {
+                  "year": 1988,
+                  "value": 74.9
+                },
+                {
+                  "year": 1989,
+                  "value": 75.1
+                },
+                {
+                  "year": 1990,
+                  "value": 75.3
+                },
+                {
+                  "year": 1991,
+                  "value": 75.5
+                },
+                {
+                  "year": 1992,
+                  "value": 75.7
+                },
+                {
+                  "year": 1993,
+                  "value": 75.5
+                },
+                {
+                  "year": 1994,
+                  "value": 75.7
+                },
+                {
+                  "year": 1995,
+                  "value": 75.7
+                },
+                {
+                  "year": 1996,
+                  "value": 76.1
+                },
+                {
+                  "year": 1997,
+                  "value": 76.5
+                },
+                {
+                  "year": 1998,
+                  "value": 76.7
+                },
+                {
+                  "year": 1999,
+                  "value": 76.7
+                },
+                {
+                  "year": 2000,
+                  "value": 76.7
+                },
+                {
+                  "year": 2001,
+                  "value": 76.9
+                },
+                {
+                  "year": 2002,
+                  "value": 77.0
+                },
+                {
+                  "year": 2003,
+                  "value": 77.1
+                },
+                {
+                  "year": 2004,
+                  "value": 77.6
+                },
+                {
+                  "year": 2005,
+                  "value": 77.6
+                },
+                {
+                  "year": 2006,
+                  "value": 77.8
+                },
+                {
+                  "year": 2007,
+                  "value": 78.1
+                },
+                {
+                  "year": 2008,
+                  "value": 78.1
+                },
+                {
+                  "year": 2009,
+                  "value": 78.5
+                },
+                {
+                  "year": 2010,
+                  "value": 78.6
+                },
+                {
+                  "year": 2011,
+                  "value": 78.7
+                },
+                {
+                  "year": 2012,
+                  "value": 78.8
+                },
+                {
+                  "year": 2013,
+                  "value": 78.8
+                },
+                {
+                  "year": 2014,
+                  "value": 78.9
+                },
+                {
+                  "year": 2015,
+                  "value": 78.7
+                },
+                {
+                  "year": 2016,
+                  "value": 78.7
+                },
+                {
+                  "year": 2017,
+                  "value": 78.9
+                }
+              ]
+            },
+            {
+              "label": "Comparable Country Average",
+              "values": [
+                {
+                  "year": 1980,
+                  "value": 74.5
+                },
+                {
+                  "year": 1981,
+                  "value": 74.8
+                },
+                {
+                  "year": 1982,
+                  "value": 75.0
+                },
+                {
+                  "year": 1983,
+                  "value": 75.2
+                },
+                {
+                  "year": 1984,
+                  "value": 75.6
+                },
+                {
+                  "year": 1985,
+                  "value": 75.7
+                },
+                {
+                  "year": 1986,
+                  "value": 76.0
+                },
+                {
+                  "year": 1987,
+                  "value": 76.4
+                },
+                {
+                  "year": 1988,
+                  "value": 76.5
+                },
+                {
+                  "year": 1989,
+                  "value": 76.7
+                },
+                {
+                  "year": 1990,
+                  "value": 76.8
+                },
+                {
+                  "year": 1991,
+                  "value": 77.0
+                },
+                {
+                  "year": 1992,
+                  "value": 77.3
+                },
+                {
+                  "year": 1993,
+                  "value": 77.4
+                },
+                {
+                  "year": 1994,
+                  "value": 77.7
+                },
+                {
+                  "year": 1995,
+                  "value": 77.8
+                },
+                {
+                  "year": 1996,
+                  "value": 78.1
+                },
+                {
+                  "year": 1997,
+                  "value": 78.4
+                },
+                {
+                  "year": 1998,
+                  "value": 78.6
+                },
+                {
+                  "year": 1999,
+                  "value": 78.7
+                },
+                {
+                  "year": 2000,
+                  "value": 79.0
+                },
+                {
+                  "year": 2001,
+                  "value": 79.3
+                },
+                {
+                  "year": 2002,
+                  "value": 79.4
+                },
+                {
+                  "year": 2003,
+                  "value": 79.5
+                },
+                {
+                  "year": 2004,
+                  "value": 80.0
+                },
+                {
+                  "year": 2005,
+                  "value": 80.2
+                },
+                {
+                  "year": 2006,
+                  "value": 80.6
+                },
+                {
+                  "year": 2007,
+                  "value": 80.8
+                },
+                {
+                  "year": 2008,
+                  "value": 81.0
+                },
+                {
+                  "year": 2009,
+                  "value": 81.2
+                },
+                {
+                  "year": 2010,
+                  "value": 81.4
+                },
+                {
+                  "year": 2011,
+                  "value": 81.6
+                },
+                {
+                  "year": 2012,
+                  "value": 81.6
+                },
+                {
+                  "year": 2013,
+                  "value": 81.8
+                },
+                {
+                  "year": 2014,
+                  "value": 82.2
+                },
+                {
+                  "year": 2015,
+                  "value": 82.0
+                },
+                {
+                  "year": 2016,
+                  "value": 82.2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Related topics",
+      "hide": true,
+      "indicators": [
+        {
+          "type": "link",
+          "text": "Insurance coverage",
+          "link": "#"
+        },
+        {
+          "type": "link",
+          "text": "Poverty",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Patient financial impact",
+      "citations": [
+        "S. Hayes, S. Collins, and D. Radley. “How Much U.S. Households with Employer Insurance Spend on Premiums and Out-of-Pocket Costs: A State-by-State Look.” <em>The Commonwealth Fund</em>, May 23, 2019. hhttps://www.commonwealthfund.org/publications/issue-briefs/2019/may/how-much-us-households-employer-insurance-spend-premiums-out-of-pocket",
+        "“Consumer Expenditures, 2018.” <em>Bureau of Labor Statistics</em>. https://www.bls.gov/news.release/cesan.nr0.htm"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 16,
+          "description": "non-elderly adults had difficulty paying medical bills in 2017"
+        },
+        {
+          "type": "stat",
+          "prefix": "$",
+          "abbreviation": "k",
+          "stat": 4.9,
+          "description": "median household expenditure on healthcare in 2017"
+        }
+      ]
+    },
+    {
+      "title": "Investment in research",
+      "citations": [
+        "“US Medical Health Research Spending on the Rise, But For How Long?.” <em>Research America</em>, Nov 15, 2017. https://www.researchamerica.org/news-events/news/us-medical-health-research-spending-rise-how-long"
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "prefix": "$",
+          "abbreviation": "B",
+          "stat": 172,
+          "description": "spent on medical and health R&D in 2016"
+        }
+      ]
+    }
+  ]
+}

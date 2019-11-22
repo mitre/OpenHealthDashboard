@@ -1,0 +1,31 @@
+<svg width="152" height="124" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+	<g filter="url(#filter1_i)">
+		<ellipse cx="19" cy="11.8" rx="11.75" ry="7.75" stroke="#AAE1F2" stroke-width="0.5"/>
+	</g>
+	<ellipse opacity="0.8" cx="19" cy="11.8" rx="11.5" ry="7.5" fill="#E0BA94"/>
+	<text x="9.5" y="15" font-size="5" fill="#454545">$</text>
+	<text x="13" y="15" font-size="11" fill="#333333">0.3</text>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="100%" height="100%" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+	<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+	<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+	<feOffset dy="4"/>
+	<feGaussianBlur stdDeviation="1.75"/>
+	<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.31 0"/>
+	<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+	<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_i" x="0" y="0" width="100%" height="100%" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+	<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+	<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+	<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+	<feOffset/>
+	<feGaussianBlur stdDeviation="1.25"/>
+	<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+	<feColorMatrix type="matrix" values="0 0 0 0 0.0892535 0 0 0 0 0.189369 0 0 0 0 0.220833 0 0 0 1 0"/>
+	<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+</defs>
+</svg>

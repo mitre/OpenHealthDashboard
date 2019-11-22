@@ -1,0 +1,85 @@
+$bar-chart-left-margin-big: 320px;
+$bar-chart-left-margin-small: 220px;
+
+.bar-chart {
+  &__title,
+  &__bar-label,
+  &__y-axis-title,
+  &__x-axis-title,
+  &__bar-value {
+    fill: $color-text--white;
+    margin: 0;
+  }
+
+  &__title {
+    @extend .text-table;
+    font-weight: $font-weight--medium;
+    padding-top: $spacing / 2;
+    padding-bottom: 4px;
+    .bar-chart--horizontal & {
+      text-align: left;
+      padding-left: $bar-chart-left-margin-big;
+      padding-bottom: 0px;
+    }
+  }
+  &__x-axis-title {
+    @extend .text--chart;
+    text-align: center;
+    padding-bottom: 5px;
+
+    .bar-chart--horizontal & {
+      text-align: left;
+      padding-left: 0px;
+      padding-bottom: 0px;
+
+    }
+  }
+  &__y-axis-title {
+    @extend .text--chart;
+    text-align: left;
+    padding-bottom: 5px;
+
+    .bar-chart--horizontal & {
+      display: inline-block;
+      position: relative;
+      width: $bar-chart-left-margin-big - 5px;
+      text-align: right;
+      padding: 0px 5px 0px 0px;
+      border-right: $color-blue--lightest solid 1px;
+      margin-right: 5px;
+
+      .supporting-indicator &, .map-topic__lenses & {
+        width: $bar-chart-left-margin-small - 5px;
+      }
+    }
+  }
+  &__y-axis-title {
+    @extend .text--chart;
+    padding: 10px 0px;
+  }
+
+
+  &__bar-label {
+    @extend .text--chart;
+  }
+  &__bar-value{
+    @extend .text-table;
+  }
+
+  &__diverging-label {
+    fill: $color-text--white;
+  }
+
+  &__diverging-divider {
+    stroke: rgba($color-text--gray, 0.25);
+  }
+}
+
+.bar-chart-wrapper {
+  p:first-of-type {
+    margin-bottom: 0;
+  }
+  p:last-of-type {
+    margin-top: 0;
+  }
+}

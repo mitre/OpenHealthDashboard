@@ -1,0 +1,16 @@
+<svg viewBox="0 0 931 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#bigZigZagFilter0_d)">
+<path d="M5 47.1223L254.5 46.1223L256.333 41.6078L261.167 58.5933L262.5 54.0933L563.5 54.0933L568 1L573 108L578 64.0933L926.5 64.0933M926.5 64.0933L922.5 60.1099M926.5 64.0933L922.5 68.0767" stroke="#FFA842" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="bigZigZagFilter0_d" x="0.5" y="0.5" width="930.5" height="116" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

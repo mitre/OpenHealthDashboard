@@ -1,0 +1,180 @@
+$button-radius: 10px;
+$button-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+
+.button {
+  position: relative;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: $button-radius;
+  background-color: $color-gray--dark;
+  font-size: $font-size--smaller;
+  font-family: $font-family;
+  letter-spacing: 0.05 * $font-size--smaller;
+  font-weight: $font-weight--medium;
+  color: $color-gold;
+  box-shadow: $button-shadow;
+  cursor: pointer;
+
+  svg {
+    fill: $color-gold;
+  }
+
+  &.selected {
+    background-color: $color-gold;
+    color: $color-blue--darkest;
+
+    svg {
+      fill: $color-blue--darkest;
+    }
+  }
+
+  &--inverse {
+    box-shadow: $button-shadow, inset 0px 0px 0px 3px $color-blue--darkest;
+    background: none;
+    color: $color-blue--darkest;
+  }
+
+  &--blue {
+    background-color: $color-blue--darkest;
+  }
+
+  &--yellow {
+    background-color: $color-gold;
+    color: $color-blue--darkest;
+
+    svg {
+      fill: $color-blue--darkest;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+    box-shadow: none;
+
+    &.button--blue {
+      color: $color-blue--darkest;
+
+      svg {
+        fill: $color-blue--darkest;
+      }
+
+      &:active {
+        color: $color-gold;
+
+        svg {
+          fill: $color-gold;
+        }
+      }
+    }
+  }
+
+  $button-height: 40px;
+  &--outline {
+    height: $button-height;
+    padding: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-shadow: none;
+
+    svg {
+      width: 100%;
+      height: $button-height;
+      fill: none !important;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    div{
+      //position: absolute;
+      margin: 0;
+      padding: 0px 15px 0px 40px;
+      line-height: $button-height;
+    }
+
+  }
+/*
+  &--outline-diamond {
+    height: 50px;
+    padding: 0px 20px 0px 45px;
+    border-top: 2px solid $color-gold;
+    border-bottom: 2px solid $color-gold;
+    border-radius: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.5);
+
+
+    &:before,
+    &:after, {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 5px;
+      width: 34px;
+      height: 34px;
+      transform: rotate(45deg);
+    }
+
+    &:before {
+      left: -17px;
+      background: radial-gradient($color-gold 0%, rgba($color-gold, .5) 100%);
+    }
+
+    &:after {
+      right: -19px;
+      border-top: 2px solid $color-gold;
+      border-right: 2px solid $color-gold;
+      box-shadow: 5px 0px 5px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    &:active {
+      &:after {
+        box-shadow: none;
+      }
+    }
+  }
+*/
+
+  &--large {
+    min-width: 360px;
+    padding: 10px 40px;
+    $this_text_size: 12 / 10 * $font-size--base;
+    font-size: $this_text_size;
+    font-weight: $font-weight--bold;
+  }
+
+  &--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translate(1px, 1px);
+  }
+  &--inverse:active {
+      box-shadow: inset 0px 0px 0px 3px $color-blue--darkest;
+  }
+}
+
+.button-group {
+  .button {
+    border-radius: 0;
+
+    &:first-of-type {
+      border-top-left-radius: $button-radius;
+      border-bottom-left-radius: $button-radius;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: $button-radius;
+      border-bottom-right-radius: $button-radius;
+    }
+
+    &:not(:last-of-type) {
+      margin-right: 3px;
+    }
+  }
+}

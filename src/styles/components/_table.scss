@@ -1,0 +1,37 @@
+.table {
+  width: 100%;
+  padding-left: 22%;
+
+  &__table {
+    min-width: 500px;
+    border-collapse: collapse;
+  }
+
+  &__row {
+
+    th,
+    td {
+      padding: 5px 10px;
+      text-align: left;
+    }
+
+    th:not(:first-of-type),
+    td:not(:first-of-type) {
+      text-align: right;
+    }
+
+    &--labels {
+      font-size: $font-size--small;
+    }
+
+    &--headers {
+      th {
+        border-top: 1px solid $color-blue--dark;
+      }
+    }
+
+    &--alt {
+      background-color: $color-blue--dark;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.topic-select {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+
+  &__zigline {
+    position: absolute;
+    top: calc(50% + 5px);
+    right: 0px;
+    width: 100%;
+
+    &--big {
+      top: calc(50% + 85px);
+      transform: translateY(-50%);
+    }
+  }
+
+  &__button-up,
+  &__button-down {
+    position: absolute;
+    left: 350px;
+    z-index: 1000;
+  }
+
+  &__button-up {
+    top: 20px;
+  }
+
+  &__button-down {
+    bottom: 20px;
+  }
+
+  &__description {
+    position: absolute;
+    right: 70px;
+    bottom: calc(50% - 56px);
+    width: 830px;
+    padding: 40px 40px 20px 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: $color-blue--lightest;
+    p {
+      $this_text_size: 12 / 10 * $font-size--base;
+      margin: 0;
+      margin-bottom: 40px;
+      color: $color-blue--darkest;
+      font-size: $this_text_size;
+      line-height: 1.2 * $this_text_size;
+    }
+
+    &--big {
+      left: 1250px;
+      right: auto;
+      bottom: calc(50% - 60px);
+    }
+  }
+
+  &__dismiss-text{
+    padding-top: $spacing;
+    color: $color-gold;
+    font-weight: $font-weight--medium;
+    position: absolute;
+    text-decoration: underline;
+    left: 2160px - 900px + 40px;
+    bottom: calc(50% - 200px);
+  }
+
+  &__dismiss {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    &--big {
+      width: 75%;
+    }
+  }
+
+  &__wheel,
+  &__content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__content {
+
+  }
+
+  &__options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__option {
+    position: absolute;
+    width: 950px;
+    text-align: left;
+    color: $color-blue--darkest;
+    font-weight: $font-weight--light;
+    font-size: $font-size--medium;
+    vertical-align: middle;
+    transition: transform 200ms linear;
+    &.selected {
+       font-weight: $font-weight--bold;
+    }
+  }
+}

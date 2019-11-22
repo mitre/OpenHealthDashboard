@@ -1,0 +1,38 @@
+.axes {
+  path {
+    display: none;
+  }
+
+  line {
+    fill: none;
+    stroke: $color-blue--lightest;
+  }
+
+  text {
+    @extend .text--chart;
+    fill: $color-text--white;
+  }
+}
+
+.axis {
+  &__grid-line {
+    stroke: none;
+    fill: $color-blue--darkest;
+  }
+
+  &--no-ticks {
+    line {
+      display: none;
+    }
+  }
+
+  &--time {
+    line {
+      stroke-width: 2px;
+    }
+
+    text {
+      transform: translate(0px, 10px);
+    }
+  }
+}

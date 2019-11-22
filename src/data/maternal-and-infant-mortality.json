@@ -1,0 +1,930 @@
+{
+  "title": "Maternal & Infant Mortality",
+  "description": "While worldwide maternal mortality drops, it is rising in the U.S. Moreover, the devastating loss of a mother or child disproportionately harms minority communities.",
+  "illustration" : "maternal-health.svg",
+  "keyIndicators": [
+    {
+      "title": "Maternal mortality",
+      "stat": 21,
+      "description": "deaths per 100,000 live births in 2017",
+      "citations": [
+        "“Health of Women and Children.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/health-of-women-and-children/measure/maternal_mortality",
+        "Health Status: Maternal and infant mortality.” <em>OECD.stat</em>, OECD. https://stats.oecd.org/index.aspx?queryid=30116"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "maternal deaths per 100,000 live births",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "USA",
+              "values": [
+                {
+                  "year": 2000,
+                  "value": 13.2
+                },
+                {
+                  "year": 2001,
+                  "value": 14.7
+                },
+                {
+                  "year": 2002,
+                  "value": 14.1
+                },
+                {
+                  "year": 2003,
+                  "value": 16.8
+                },
+                {
+                  "year": 2004,
+                  "value": 15.2
+                },
+                {
+                  "year": 2005,
+                  "value": 15.4
+                },
+                {
+                  "year": 2006,
+                  "value": 15.7
+                },
+                {
+                  "year": 2007,
+                  "value": 14.5
+                },
+                {
+                  "year": 2008,
+                  "value": 15.5
+                },
+                {
+                  "year": 2009,
+                  "value": 17.8
+                },
+                {
+                  "year": 2010,
+                  "value": 16.7
+                },
+                {
+                  "year": 2011,
+                  "value": 17.8
+                },
+                {
+                  "year": 2012,
+                  "value": 15.9
+                },
+                {
+                  "year": 2013,
+                  "value": 17.3
+                },
+                {
+                  "year": 2014,
+                  "value": 18.0
+                },
+                {
+                  "year": 2015,
+                  "value": 17.2
+                },
+                {
+                  "year": 2016,
+                  "value": 19.9
+                },
+                {
+                  "year": 2018,
+                  "value": 20.7
+                }
+              ]
+            },
+            {
+              "label": "OECD Average",
+              "values": [
+                {
+                  "year": 2000,
+                  "value": 28
+                },
+                {
+                  "year": 2001,
+                  "value": 26
+                },
+                {
+                  "year": 2002,
+                  "value": 24
+                },
+                {
+                  "year": 2003,
+                  "value": 23
+                },
+                {
+                  "year": 2004,
+                  "value": 22
+                },
+                {
+                  "year": 2005,
+                  "value": 21
+                },
+                {
+                  "year": 2006,
+                  "value": 20
+                },
+                {
+                  "year": 2007,
+                  "value": 19
+                },
+                {
+                  "year": 2008,
+                  "value": 18
+                },
+                {
+                  "year": 2009,
+                  "value": 18
+                },
+                {
+                  "year": 2010,
+                  "value": 17
+                },
+                {
+                  "year": 2011,
+                  "value": 16
+                },
+                {
+                  "year": 2012,
+                  "value": 16
+                },
+                {
+                  "year": 2013,
+                  "value": 15
+                },
+                {
+                  "year": 2014,
+                  "value": 15
+                },
+                {
+                  "year": 2015,
+                  "value": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "maternal deaths per 100,000 live births",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 11.9
+            },
+            {
+              "state": "Alaska",
+              "value": null
+            },
+            {
+              "state": "Arizona",
+              "value": 18.8
+            },
+            {
+              "state": "Arkansas",
+              "value": 34.8
+            },
+            {
+              "state": "California",
+              "value": 4.5
+            },
+            {
+              "state": "Colorado",
+              "value": 11.3
+            },
+            {
+              "state": "Connecticut",
+              "value": 13.2
+            },
+            {
+              "state": "Delaware",
+              "value": 14.0
+            },
+            {
+              "state": "District of Columbia",
+              "value": 36.1
+            },
+            {
+              "state": "Florida",
+              "value": 23.8
+            },
+            {
+              "state": "Georgia",
+              "value": 46.2
+            },
+            {
+              "state": "Hawaii",
+              "value": 11.7
+            },
+            {
+              "state": "Idaho",
+              "value": 21.2
+            },
+            {
+              "state": "Illinois",
+              "value": 16.6
+            },
+            {
+              "state": "Indiana",
+              "value": 41.4
+            },
+            {
+              "state": "Iowa",
+              "value": 17.9
+            },
+            {
+              "state": "Kansas",
+              "value": 17.7
+            },
+            {
+              "state": "Kentucky",
+              "value": 19.4
+            },
+            {
+              "state": "Louisiana",
+              "value": 44.8
+            },
+            {
+              "state": "Maine",
+              "value": 15.7
+            },
+            {
+              "state": "Maryland",
+              "value": 23.5
+            },
+            {
+              "state": "Massachusetts",
+              "value": 6.1
+            },
+            {
+              "state": "Michigan",
+              "value": 19.4
+            },
+            {
+              "state": "Minnesota",
+              "value": 13.0
+            },
+            {
+              "state": "Mississippi",
+              "value": 22.6
+            },
+            {
+              "state": "Missouri",
+              "value": 32.6
+            },
+            {
+              "state": "Montana",
+              "value": 24.4
+            },
+            {
+              "state": "Nebraska",
+              "value": 16.8
+            },
+            {
+              "state": "Nevada",
+              "value": 6.2
+            },
+            {
+              "state": "New Hampshire",
+              "value": 16.8
+            },
+            {
+              "state": "New Jersey",
+              "value": 38.1
+            },
+            {
+              "state": "New Mexico",
+              "value": 25.6
+            },
+            {
+              "state": "New York",
+              "value": 20.6
+            },
+            {
+              "state": "North Carolina",
+              "value": 15.8
+            },
+            {
+              "state": "North Dakota",
+              "value": 18.9
+            },
+            {
+              "state": "Ohio",
+              "value": 20.3
+            },
+            {
+              "state": "Oklahoma",
+              "value": 23.4
+            },
+            {
+              "state": "Oregon",
+              "value": 13.7
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 16.3
+            },
+            {
+              "state": "Rhode Island",
+              "value": 18.3
+            },
+            {
+              "state": "South Carolina",
+              "value": 26.5
+            },
+            {
+              "state": "South Dakota",
+              "value": 28.0
+            },
+            {
+              "state": "Tennessee",
+              "value": 23.3
+            },
+            {
+              "state": "Texas",
+              "value": 34.2
+            },
+            {
+              "state": "Utah",
+              "value": 16.8
+            },
+            {
+              "state": "Vermont",
+              "value": null
+            },
+            {
+              "state": "Virginia",
+              "value": 15.6
+            },
+            {
+              "state": "Washington",
+              "value": 14.8
+            },
+            {
+              "state": "West Virginia",
+              "value": 11.7
+            },
+            {
+              "state": "Wisconsin",
+              "value": 14.3
+            },
+            {
+              "state": "Wyoming",
+              "value": 24.6
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "yAxisLabel": null,
+          "xAxisLabel": "maternal deaths per 100,000 live births",
+          "values": [
+            {
+              "name": "Black",
+              "value": 47.2
+            },
+            {
+              "name": "American Indian / Alaskan Native",
+              "value": 38.8
+            },
+            {
+              "name": "White",
+              "value": 18.1
+            },
+            {
+              "name": "Hispanic",
+              "value": 12.1
+            },
+            {
+              "name": "Asian/Pacific Islander",
+              "value": 11.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Infant mortality",
+      "stat": 590,
+      "description": "deaths per 100,000 live births in 2017",
+      "citations": [
+        "“Health of Women and Children.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/health-of-women-and-children/measure/IMR_MCH/state/ALL"
+      ],
+      "lensData": [
+        {
+          "lensType": "time",
+          "type": "chart",
+          "chartType": "line",
+          "title": null,
+          "yAxisLabel": "infant deaths per 100,000 live births",
+          "xAxisLabel": null,
+          "values": [
+            {
+              "label": "USA",
+              "values": [
+                {
+                  "year": 2000,
+                  "value": 720
+                },
+                {
+                  "year": 2001,
+                  "value": 710
+                },
+                {
+                  "year": 2002,
+                  "value": 700
+                },
+                {
+                  "year": 2003,
+                  "value": 690
+                },
+                {
+                  "year": 2004,
+                  "value": 680
+                },
+                {
+                  "year": 2005,
+                  "value": 670
+                },
+                {
+                  "year": 2006,
+                  "value": 670
+                },
+                {
+                  "year": 2007,
+                  "value": 680
+                },
+                {
+                  "year": 2008,
+                  "value": 680
+                },
+                {
+                  "year": 2009,
+                  "value": 670
+                },
+                {
+                  "year": 2010,
+                  "value": 670
+                },
+                {
+                  "year": 2011,
+                  "value": 650
+                },
+                {
+                  "year": 2012,
+                  "value": 630
+                },
+                {
+                  "year": 2013,
+                  "value": 610
+                },
+                {
+                  "year": 2014,
+                  "value": 600
+                },
+                {
+                  "year": 2015,
+                  "value": 600
+                },
+                {
+                  "year": 2016,
+                  "value": 590
+                },
+                {
+                  "year": 2017,
+                  "value": 590
+                },
+                {
+                  "year": 2018,
+                  "value": 590
+                }
+              ]
+            },
+            {
+              "label": "OECD Average",
+              "values": [
+                {
+                  "year": 2000,
+                  "value": 1078
+                },
+                {
+                  "year": 2001,
+                  "value": 1029
+                },
+                {
+                  "year": 2002,
+                  "value": 983
+                },
+                {
+                  "year": 2003,
+                  "value": 940
+                },
+                {
+                  "year": 2004,
+                  "value": 901
+                },
+                {
+                  "year": 2005,
+                  "value": 861
+                },
+                {
+                  "year": 2006,
+                  "value": 827
+                },
+                {
+                  "year": 2007,
+                  "value": 795
+                },
+                {
+                  "year": 2008,
+                  "value": 767
+                },
+                {
+                  "year": 2009,
+                  "value": 741
+                },
+                {
+                  "year": 2010,
+                  "value": 713
+                },
+                {
+                  "year": 2011,
+                  "value": 691
+                },
+                {
+                  "year": 2012,
+                  "value": 669
+                },
+                {
+                  "year": 2013,
+                  "value": 649
+                },
+                {
+                  "year": 2014,
+                  "value": 630
+                },
+                {
+                  "year": 2015,
+                  "value": 611
+                },
+                {
+                  "year": 2016,
+                  "value": 593
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lensType": "state",
+          "type": "map",
+          "scaleLabel": "infant deaths per 100,000 live births",
+          "values": [
+            {
+              "state": "Alabama",
+              "value": 850
+            },
+            {
+              "state": "Alaska",
+              "value": 680
+            },
+            {
+              "state": "Arizona",
+              "value": 580
+            },
+            {
+              "state": "Arkansas",
+              "value": 740
+            },
+            {
+              "state": "California",
+              "value": 440
+            },
+            {
+              "state": "Colorado",
+              "value": 470
+            },
+            {
+              "state": "Connecticut",
+              "value": 520
+            },
+            {
+              "state": "Delaware",
+              "value": 800
+            },
+            {
+              "state": "District of Columbia",
+              "value": 810
+            },
+            {
+              "state": "Florida",
+              "value": 620
+            },
+            {
+              "state": "Georgia",
+              "value": 770
+            },
+            {
+              "state": "Hawaii",
+              "value": 510
+            },
+            {
+              "state": "Idaho",
+              "value": 500
+            },
+            {
+              "state": "Illinois",
+              "value": 630
+            },
+            {
+              "state": "Indiana",
+              "value": 720
+            },
+            {
+              "state": "Iowa",
+              "value": 450
+            },
+            {
+              "state": "Kansas",
+              "value": 610
+            },
+            {
+              "state": "Kentucky",
+              "value": 690
+            },
+            {
+              "state": "Louisiana",
+              "value": 750
+            },
+            {
+              "state": "Maine",
+              "value": 660
+            },
+            {
+              "state": "Maryland",
+              "value": 650
+            },
+            {
+              "state": "Massachusetts",
+              "value": 430
+            },
+            {
+              "state": "Michigan",
+              "value": 650
+            },
+            {
+              "state": "Minnesota",
+              "value": 510
+            },
+            {
+              "state": "Mississippi",
+              "value": 880
+            },
+            {
+              "state": "Missouri",
+              "value": 630
+            },
+            {
+              "state": "Montana",
+              "value": 580
+            },
+            {
+              "state": "Nebraska",
+              "value": 540
+            },
+            {
+              "state": "Nevada",
+              "value": 540
+            },
+            {
+              "state": "New Hampshire",
+              "value": 420
+            },
+            {
+              "state": "New Jersey",
+              "value": 450
+            },
+            {
+              "state": "New Mexico",
+              "value": 520
+            },
+            {
+              "state": "New York",
+              "value": 460
+            },
+            {
+              "state": "North Carolina",
+              "value": 730
+            },
+            {
+              "state": "North Dakota",
+              "value": 610
+            },
+            {
+              "state": "Ohio",
+              "value": 700
+            },
+            {
+              "state": "Oklahoma",
+              "value": 780
+            },
+            {
+              "state": "Oregon",
+              "value": 510
+            },
+            {
+              "state": "Pennsylvania",
+              "value": 600
+            },
+            {
+              "state": "Rhode Island",
+              "value": 520
+            },
+            {
+              "state": "South Carolina",
+              "value": 670
+            },
+            {
+              "state": "South Dakota",
+              "value": 650
+            },
+            {
+              "state": "Tennessee",
+              "value": 690
+            },
+            {
+              "state": "Texas",
+              "value": 580
+            },
+            {
+              "state": "Utah",
+              "value": 500
+            },
+            {
+              "state": "Vermont",
+              "value": 460
+            },
+            {
+              "state": "Virginia",
+              "value": 580
+            },
+            {
+              "state": "Washington",
+              "value": 470
+            },
+            {
+              "state": "West Virginia",
+              "value": 700
+            },
+            {
+              "state": "Wisconsin",
+              "value": 580
+            },
+            {
+              "state": "Wyoming",
+              "value": 560
+            }
+          ]
+        },
+        {
+          "lensType": "demogr",
+          "type": "chart",
+          "chartType": "barHorizontal",
+          "yAxisLabel": null,
+          "xAxisLabel": "infant deaths per 100,000 live births",
+          "values": [
+            {
+              "name": "Non-Hispanic Black",
+              "value": 1140
+            },
+            {
+              "name": "American Indian / Alaska Native",
+              "value": 940
+            },
+            {
+              "name": "Native Hawaiian or other Pacific Islander",
+              "value": 740
+            },
+            {
+              "name": "Hispanic",
+              "value": 500
+            },
+            {
+              "name": "Non-Hispanic White",
+              "value": 490
+            },
+            {
+              "name": "Asian",
+              "value": 360
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supportingIndicators": [
+    {
+      "title": "Infant mortality risk factors",
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 8,
+          "description": "of women drink alcohol during their last trimester of pregnancy"
+        },
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 7.8,
+          "description": "of women smoke tobacco during pregnancy"
+        },
+        {
+          "type": "chart",
+          "chartType": "bar",
+          "title": "Infant mortality and mother's age",
+          "yAxisLabel": "infant deaths per 100,000 live births",
+          "xAxisLabel": "mother's age in years",
+          "values": [
+            {
+              "name": "15-19",
+              "value": 8.3
+            },
+            {
+              "name": "20-24",
+              "value": 6.9
+            },
+            {
+              "name": "25-29",
+              "value": 5.6
+            },
+            {
+              "name": "30-34",
+              "value": 4.8
+            },
+            {
+              "name": "35-39",
+              "value": 5.3
+            },
+            {
+              "name": "40-44",
+              "value": 7.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Maternal mortality risk factors",
+      "hide": true,
+      "indicators": [
+        {
+          "type": "link",
+          "text": "Diabetes",
+          "link": "#"
+        },
+        {
+          "type": "link",
+          "text": "Insurance coverage",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Low birthweight",
+      "citations": [
+        "“Health of Women and Children.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/health-of-women-and-children/measure/lowbirthweight_MCH/state/ALL",
+        "The World Health Organization defines low birthweight as 2,499 g or less, equivalent to 5 lbs. 8 oz."
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 8.1,
+          "description": "of births in the US are below 5 lbs. 8 oz."
+        }
+      ]
+    },
+    {
+      "title": "Preterm birth",
+      "citations": [
+        "“Health of Women and Children.” <em>America's Health Rankings</em>, United Health Foundation, 2018. https://www.americashealthrankings.org/explore/health-of-women-and-children/measure/pretermbirth_MCH/state/ALL",
+        "The World Health Organization defines preterm birth as occuring before the 37th week of pregnancy."
+      ],
+      "indicators": [
+        {
+          "type": "stat",
+          "abbreviation": "%",
+          "stat": 9.6,
+          "description": "of births in the US occurred before 37 weeks gestation in 2018"
+        }
+      ]
+    }
+  ]
+}
