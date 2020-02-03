@@ -12,7 +12,7 @@ import mentalHealth from './data/build/mental-health.json';
 import efficiencyAndCost from './data/build/efficiency-and-cost.json';
 import opioidEpidemic from './data/build/opioid-epidemic.json';
 import nutritionAndObesity from './data/build/nutrition-and-obesity.json';
-import substanceAbuse from './data/build/substance-abuse.json';
+import substanceUseDisorder from './data/build/substance-use-disorder.json';
 
 const topics = [
   maternalAndInfantMortalityData,
@@ -20,7 +20,7 @@ const topics = [
   efficiencyAndCost,
   opioidEpidemic,
   nutritionAndObesity,
-  substanceAbuse
+  substanceUseDisorder
 ]
 
 const stories = [
@@ -29,21 +29,21 @@ const stories = [
     title: "Future Story",
     tagline: "Contribute with your data story!",
     description: "For Dashboard v1, we present the summary story The State of Health, USA. Contribute with your data story!",
-    topics: [maternalAndInfantMortalityData, mentalHealth, substanceAbuse, opioidEpidemic, efficiencyAndCost],
+    topics: [maternalAndInfantMortalityData, mentalHealth, substanceUseDisorder, opioidEpidemic, efficiencyAndCost],
   },
   {
     id: "stateOfHealthUSA",
     title: "The State of U.S. Health",
     tagline: "How are we doing as a nation? What are the biggest problems?",
     description: "How are we doing as a nation? What are the biggest problems?",
-    topics: [maternalAndInfantMortalityData, mentalHealth, substanceAbuse, opioidEpidemic, efficiencyAndCost],
+    topics: [maternalAndInfantMortalityData, mentalHealth, substanceUseDisorder, opioidEpidemic, efficiencyAndCost],
   },
   {
     id: "3",
     title: "Another Future Story",
     tagline: "Contribute with your data story!",
     description: "For Dashboard v1, we present the summary story The State of Health, USA. Contribute with your data story!",
-    topics: [maternalAndInfantMortalityData, mentalHealth, substanceAbuse, opioidEpidemic, efficiencyAndCost],
+    topics: [maternalAndInfantMortalityData, mentalHealth, substanceUseDisorder, opioidEpidemic, efficiencyAndCost],
   }
 ]
 

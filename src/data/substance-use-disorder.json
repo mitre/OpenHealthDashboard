@@ -1,5 +1,5 @@
 {
-  "title": "Substance Abuse",
+  "title": "Substance Use Disorder",
   "description": "158,000 Americans died from drug abuse in 2017. That's nearly 50 people for every county in the country. Which populations are hurting the most? Are we doing enough to help them?",
   "illustration": "substance-abuse.svg",
   "keyIndicators": [
@@ -810,7 +810,7 @@
       "prefix": "$",
       "stat": 4.17,
       "abbreviation": null,
-      "description": "per $1,000 of state budgets allocated to substance abuse agencies in 2013",
+      "description": "per $1,000 of state budgets allocated to Substance Use Disorder agencies in 2013",
       "citations": [
         "The Pew Charitable Trusts and the United States Census Bureaum as posted on: Freeman, Trevor. “Drug Abuse in the State: Treatment.” <em>Trevor Freeman's blog</em>, The Council of State Governments, Oct. 3, 2017. https://knowledgecenter.csg.org/kc/content/drug-abuse-states-treatment"
       ],
@@ -819,7 +819,7 @@
           "lensType": "state",
           "type": "map",
           "flavor": "good",
-          "scaleLabel": "State budget allocation (per $1,000) to substance abuse agencies",
+          "scaleLabel": "State budget allocation (per $1,000) to Substance Use Disorder agencies",
           "values": [
             {
               "state": "Alabama",
@@ -1288,7 +1288,7 @@
           "type": "stat",
           "stat": 2.0,
           "abbreviation": "M",
-          "description": "were admitted to publicly-funded facitilities for substance abuse treatment in 2017"
+          "description": "were admitted to publicly-funded facitilities for substance use disorder treatment in 2017"
         }
       ]
     }
