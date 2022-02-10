@@ -6,7 +6,7 @@
   "dependencies": {
     "@zendeskgarden/css-grid": "^0.1.30",
     "d3": "^5.9.7",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-d3-axis": "^0.1.2",
     "react-dom": "^16.8.6",
